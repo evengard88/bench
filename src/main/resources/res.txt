@@ -1,0 +1,2699 @@
+# WARNING: Unable to acquire the JMH lock (/var/folders/g1/p_11lx513bjg6g87zkst3y_w0000gp/T//jmh.lock): already taken by another JMH instance, ignored by user's request.
+# JMH 1.12 (released 18 days ago)
+# VM version: JDK 1.8.0_77, VM 25.77-b03
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/bin/java
+# VM options: -Xmx1024m -Xms1024m -Djmh.ignoreLock=true
+# Warmup: 25 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each, 5 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test.jmh.MindMaxBenchmark.maxMind1
+
+# Run progress: 0.00% complete, ETA 00:26:15
+# Fork: 1 of 5
+# Warmup Iteration   1: 322796.959 ops/s
+# Warmup Iteration   2: 693500.247 ops/s
+# Warmup Iteration   3: 811125.486 ops/s
+# Warmup Iteration   4: 829665.580 ops/s
+# Warmup Iteration   5: 799403.559 ops/s
+# Warmup Iteration   6: 849532.068 ops/s
+# Warmup Iteration   7: 853097.484 ops/s
+# Warmup Iteration   8: 848756.330 ops/s
+# Warmup Iteration   9: 860686.059 ops/s
+# Warmup Iteration  10: 850110.348 ops/s
+# Warmup Iteration  11: 843267.486 ops/s
+# Warmup Iteration  12: 851836.022 ops/s
+# Warmup Iteration  13: 859757.385 ops/s
+# Warmup Iteration  14: 857886.967 ops/s
+# Warmup Iteration  15: 842837.230 ops/s
+# Warmup Iteration  16: 849170.345 ops/s
+# Warmup Iteration  17: 856887.195 ops/s
+# Warmup Iteration  18: 824221.547 ops/s
+# Warmup Iteration  19: 852727.966 ops/s
+# Warmup Iteration  20: 860566.948 ops/s
+# Warmup Iteration  21: 863194.354 ops/s
+# Warmup Iteration  22: 854844.375 ops/s
+# Warmup Iteration  23: 862094.199 ops/s
+# Warmup Iteration  24: 868354.488 ops/s
+# Warmup Iteration  25: 846518.738 ops/s
+Iteration   1: 170552.789 ops/s
+Iteration   2: 169743.329 ops/s
+Iteration   3: 171892.195 ops/s
+Iteration   4: 172489.168 ops/s
+Iteration   5: 171945.475 ops/s
+Iteration   6: 172492.115 ops/s
+Iteration   7: 171874.064 ops/s
+Iteration   8: 174010.867 ops/s
+Iteration   9: 173011.939 ops/s
+Iteration  10: 169156.011 ops/s
+
+# Run progress: 2.22% complete, ETA 00:26:12
+# Fork: 2 of 5
+# Warmup Iteration   1: 558414.871 ops/s
+# Warmup Iteration   2: 872377.563 ops/s
+# Warmup Iteration   3: 886642.813 ops/s
+# Warmup Iteration   4: 885831.214 ops/s
+# Warmup Iteration   5: 856536.696 ops/s
+# Warmup Iteration   6: 896984.826 ops/s
+# Warmup Iteration   7: 897266.965 ops/s
+# Warmup Iteration   8: 871952.818 ops/s
+# Warmup Iteration   9: 889654.401 ops/s
+# Warmup Iteration  10: 884989.916 ops/s
+# Warmup Iteration  11: 896173.344 ops/s
+# Warmup Iteration  12: 867829.789 ops/s
+# Warmup Iteration  13: 857319.686 ops/s
+# Warmup Iteration  14: 890156.647 ops/s
+# Warmup Iteration  15: 884745.040 ops/s
+# Warmup Iteration  16: 883232.757 ops/s
+# Warmup Iteration  17: 898657.984 ops/s
+# Warmup Iteration  18: 875171.849 ops/s
+# Warmup Iteration  19: 877793.433 ops/s
+# Warmup Iteration  20: 882705.564 ops/s
+# Warmup Iteration  21: 902744.152 ops/s
+# Warmup Iteration  22: 892438.424 ops/s
+# Warmup Iteration  23: 895411.327 ops/s
+# Warmup Iteration  24: 898562.180 ops/s
+# Warmup Iteration  25: 884560.939 ops/s
+Iteration   1: 178137.584 ops/s
+Iteration   2: 178953.710 ops/s
+Iteration   3: 178933.717 ops/s
+Iteration   4: 178186.048 ops/s
+Iteration   5: 179641.050 ops/s
+Iteration   6: 179682.800 ops/s
+Iteration   7: 178866.588 ops/s
+Iteration   8: 179851.759 ops/s
+Iteration   9: 178541.193 ops/s
+Iteration  10: 178765.693 ops/s
+
+# Run progress: 4.44% complete, ETA 00:25:34
+# Fork: 3 of 5
+# Warmup Iteration   1: 554808.221 ops/s
+# Warmup Iteration   2: 877487.114 ops/s
+# Warmup Iteration   3: 852168.192 ops/s
+# Warmup Iteration   4: 864079.670 ops/s
+# Warmup Iteration   5: 772262.279 ops/s
+# Warmup Iteration   6: 891055.679 ops/s
+# Warmup Iteration   7: 853832.157 ops/s
+# Warmup Iteration   8: 893212.018 ops/s
+# Warmup Iteration   9: 891820.075 ops/s
+# Warmup Iteration  10: 899490.477 ops/s
+# Warmup Iteration  11: 887386.687 ops/s
+# Warmup Iteration  12: 905101.874 ops/s
+# Warmup Iteration  13: 882490.529 ops/s
+# Warmup Iteration  14: 881575.186 ops/s
+# Warmup Iteration  15: 893434.349 ops/s
+# Warmup Iteration  16: 895492.583 ops/s
+# Warmup Iteration  17: 893947.628 ops/s
+# Warmup Iteration  18: 889059.197 ops/s
+# Warmup Iteration  19: 895269.411 ops/s
+# Warmup Iteration  20: 894041.784 ops/s
+# Warmup Iteration  21: 885301.649 ops/s
+# Warmup Iteration  22: 898606.892 ops/s
+# Warmup Iteration  23: 886630.379 ops/s
+# Warmup Iteration  24: 884986.063 ops/s
+# Warmup Iteration  25: 900541.269 ops/s
+Iteration   1: 179909.815 ops/s
+Iteration   2: 178996.135 ops/s
+Iteration   3: 180667.865 ops/s
+Iteration   4: 176431.721 ops/s
+Iteration   5: 177788.420 ops/s
+Iteration   6: 179443.441 ops/s
+Iteration   7: 177127.980 ops/s
+Iteration   8: 173692.120 ops/s
+Iteration   9: 175938.182 ops/s
+Iteration  10: 179255.370 ops/s
+
+# Run progress: 6.66% complete, ETA 00:24:58
+# Fork: 4 of 5
+# Warmup Iteration   1: 572763.229 ops/s
+# Warmup Iteration   2: 822672.083 ops/s
+# Warmup Iteration   3: 844803.471 ops/s
+# Warmup Iteration   4: 838227.393 ops/s
+# Warmup Iteration   5: 809982.478 ops/s
+# Warmup Iteration   6: 865920.360 ops/s
+# Warmup Iteration   7: 873397.099 ops/s
+# Warmup Iteration   8: 857674.706 ops/s
+# Warmup Iteration   9: 867038.510 ops/s
+# Warmup Iteration  10: 877841.415 ops/s
+# Warmup Iteration  11: 871663.177 ops/s
+# Warmup Iteration  12: 874930.481 ops/s
+# Warmup Iteration  13: 878978.794 ops/s
+# Warmup Iteration  14: 875947.821 ops/s
+# Warmup Iteration  15: 894319.343 ops/s
+# Warmup Iteration  16: 870329.967 ops/s
+# Warmup Iteration  17: 881290.484 ops/s
+# Warmup Iteration  18: 865451.864 ops/s
+# Warmup Iteration  19: 879008.645 ops/s
+# Warmup Iteration  20: 883967.353 ops/s
+# Warmup Iteration  21: 878418.464 ops/s
+# Warmup Iteration  22: 892143.663 ops/s
+# Warmup Iteration  23: 878873.788 ops/s
+# Warmup Iteration  24: 870988.452 ops/s
+# Warmup Iteration  25: 885854.384 ops/s
+Iteration   1: 177057.901 ops/s
+Iteration   2: 177344.174 ops/s
+Iteration   3: 175476.607 ops/s
+Iteration   4: 174295.703 ops/s
+Iteration   5: 175530.617 ops/s
+Iteration   6: 176632.305 ops/s
+Iteration   7: 176154.213 ops/s
+Iteration   8: 169154.132 ops/s
+Iteration   9: 175897.155 ops/s
+Iteration  10: 174393.059 ops/s
+
+# Run progress: 8.89% complete, ETA 00:24:22
+# Fork: 5 of 5
+# Warmup Iteration   1: 583815.911 ops/s
+# Warmup Iteration   2: 872742.446 ops/s
+# Warmup Iteration   3: 864505.425 ops/s
+# Warmup Iteration   4: 877487.463 ops/s
+# Warmup Iteration   5: 864090.273 ops/s
+# Warmup Iteration   6: 902202.555 ops/s
+# Warmup Iteration   7: 893172.743 ops/s
+# Warmup Iteration   8: 889416.175 ops/s
+# Warmup Iteration   9: 892970.809 ops/s
+# Warmup Iteration  10: 891760.974 ops/s
+# Warmup Iteration  11: 898207.448 ops/s
+# Warmup Iteration  12: 887680.215 ops/s
+# Warmup Iteration  13: 885870.985 ops/s
+# Warmup Iteration  14: 891820.345 ops/s
+# Warmup Iteration  15: 897641.409 ops/s
+# Warmup Iteration  16: 893613.656 ops/s
+# Warmup Iteration  17: 901130.361 ops/s
+# Warmup Iteration  18: 879349.729 ops/s
+# Warmup Iteration  19: 901129.793 ops/s
+# Warmup Iteration  20: 901642.832 ops/s
+# Warmup Iteration  21: 908855.398 ops/s
+# Warmup Iteration  22: 891442.266 ops/s
+# Warmup Iteration  23: 888680.818 ops/s
+# Warmup Iteration  24: 880907.416 ops/s
+# Warmup Iteration  25: 893358.017 ops/s
+Iteration   1: 179926.387 ops/s
+Iteration   2: 173990.941 ops/s
+Iteration   3: 179090.165 ops/s
+Iteration   4: 180865.995 ops/s
+Iteration   5: 178786.345 ops/s
+Iteration   6: 178218.197 ops/s
+Iteration   7: 177191.379 ops/s
+Iteration   8: 177044.051 ops/s
+Iteration   9: 176666.133 ops/s
+Iteration  10: 171569.174 ops/s
+
+
+Result "maxMind1":
+  176225.276 ±(99.9%) 1603.768 ops/s [Average]
+  (min, avg, max) = (169154.132, 176225.276, 180865.995), stdev = 3239.691
+  CI (99.9%): [174621.508, 177829.044] (assumes normal distribution)
+
+
+# JMH 1.12 (released 18 days ago)
+# VM version: JDK 1.8.0_77, VM 25.77-b03
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/bin/java
+# VM options: -Xmx1024m -Xms1024m -Djmh.ignoreLock=true
+# Warmup: 25 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each, 5 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test.jmh.MindMaxBenchmark.maxMind2
+
+# Run progress: 11.11% complete, ETA 00:23:46
+# Fork: 1 of 5
+# Warmup Iteration   1: 153.649 ops/s
+# Warmup Iteration   2: 431.403 ops/s
+# Warmup Iteration   3: 768.278 ops/s
+# Warmup Iteration   4: 942.741 ops/s
+# Warmup Iteration   5: 1202.245 ops/s
+# Warmup Iteration   6: 1388.502 ops/s
+# Warmup Iteration   7: 1380.286 ops/s
+# Warmup Iteration   8: 1563.734 ops/s
+# Warmup Iteration   9: 1962.492 ops/s
+# Warmup Iteration  10: 3587.619 ops/s
+# Warmup Iteration  11: 3041.792 ops/s
+# Warmup Iteration  12: 2573.021 ops/s
+# Warmup Iteration  13: 3955.085 ops/s
+# Warmup Iteration  14: 4127.197 ops/s
+# Warmup Iteration  15: 4105.588 ops/s
+# Warmup Iteration  16: 4083.959 ops/s
+# Warmup Iteration  17: 4086.208 ops/s
+# Warmup Iteration  18: 4100.268 ops/s
+# Warmup Iteration  19: 4120.017 ops/s
+# Warmup Iteration  20: 4119.468 ops/s
+# Warmup Iteration  21: 4125.853 ops/s
+# Warmup Iteration  22: 3908.956 ops/s
+# Warmup Iteration  23: 4132.417 ops/s
+# Warmup Iteration  24: 4168.372 ops/s
+# Warmup Iteration  25: 4145.144 ops/s
+Iteration   1: 826.439 ops/s
+Iteration   2: 824.594 ops/s
+Iteration   3: 828.977 ops/s
+Iteration   4: 827.607 ops/s
+Iteration   5: 827.635 ops/s
+Iteration   6: 829.971 ops/s
+Iteration   7: 830.439 ops/s
+Iteration   8: 824.696 ops/s
+Iteration   9: 832.169 ops/s
+Iteration  10: 837.660 ops/s
+
+# Run progress: 13.33% complete, ETA 00:23:11
+# Fork: 2 of 5
+# Warmup Iteration   1: 154.850 ops/s
+# Warmup Iteration   2: 466.220 ops/s
+# Warmup Iteration   3: 894.724 ops/s
+# Warmup Iteration   4: 1141.229 ops/s
+# Warmup Iteration   5: 1388.899 ops/s
+# Warmup Iteration   6: 1500.065 ops/s
+# Warmup Iteration   7: 1371.311 ops/s
+# Warmup Iteration   8: 1573.379 ops/s
+# Warmup Iteration   9: 2280.305 ops/s
+# Warmup Iteration  10: 3534.340 ops/s
+# Warmup Iteration  11: 2649.749 ops/s
+# Warmup Iteration  12: 2498.683 ops/s
+# Warmup Iteration  13: 3996.849 ops/s
+# Warmup Iteration  14: 4147.019 ops/s
+# Warmup Iteration  15: 4189.062 ops/s
+# Warmup Iteration  16: 4203.580 ops/s
+# Warmup Iteration  17: 4023.182 ops/s
+# Warmup Iteration  18: 4104.424 ops/s
+# Warmup Iteration  19: 4160.302 ops/s
+# Warmup Iteration  20: 4218.822 ops/s
+# Warmup Iteration  21: 4081.485 ops/s
+# Warmup Iteration  22: 4131.397 ops/s
+# Warmup Iteration  23: 4178.450 ops/s
+# Warmup Iteration  24: 4186.700 ops/s
+# Warmup Iteration  25: 4122.413 ops/s
+Iteration   1: 798.339 ops/s
+Iteration   2: 832.166 ops/s
+Iteration   3: 824.495 ops/s
+Iteration   4: 832.756 ops/s
+Iteration   5: 832.014 ops/s
+Iteration   6: 824.742 ops/s
+Iteration   7: 822.600 ops/s
+Iteration   8: 824.341 ops/s
+Iteration   9: 831.402 ops/s
+Iteration  10: 840.043 ops/s
+
+# Run progress: 15.55% complete, ETA 00:22:35
+# Fork: 3 of 5
+# Warmup Iteration   1: 162.588 ops/s
+# Warmup Iteration   2: 474.151 ops/s
+# Warmup Iteration   3: 866.374 ops/s
+# Warmup Iteration   4: 805.665 ops/s
+# Warmup Iteration   5: 737.575 ops/s
+# Warmup Iteration   6: 1420.727 ops/s
+# Warmup Iteration   7: 1488.259 ops/s
+# Warmup Iteration   8: 1783.465 ops/s
+# Warmup Iteration   9: 2922.569 ops/s
+# Warmup Iteration  10: 3041.225 ops/s
+# Warmup Iteration  11: 2369.927 ops/s
+# Warmup Iteration  12: 3008.059 ops/s
+# Warmup Iteration  13: 4043.630 ops/s
+# Warmup Iteration  14: 4171.694 ops/s
+# Warmup Iteration  15: 4100.767 ops/s
+# Warmup Iteration  16: 4124.458 ops/s
+# Warmup Iteration  17: 4168.201 ops/s
+# Warmup Iteration  18: 4128.923 ops/s
+# Warmup Iteration  19: 4149.809 ops/s
+# Warmup Iteration  20: 4189.547 ops/s
+# Warmup Iteration  21: 4152.082 ops/s
+# Warmup Iteration  22: 4092.593 ops/s
+# Warmup Iteration  23: 4178.112 ops/s
+# Warmup Iteration  24: 4121.086 ops/s
+# Warmup Iteration  25: 4140.873 ops/s
+Iteration   1: 824.590 ops/s
+Iteration   2: 833.253 ops/s
+Iteration   3: 829.048 ops/s
+Iteration   4: 837.745 ops/s
+Iteration   5: 836.593 ops/s
+Iteration   6: 832.070 ops/s
+Iteration   7: 841.212 ops/s
+Iteration   8: 846.959 ops/s
+Iteration   9: 826.460 ops/s
+Iteration  10: 819.768 ops/s
+
+# Run progress: 17.77% complete, ETA 00:22:00
+# Fork: 4 of 5
+# Warmup Iteration   1: 194.824 ops/s
+# Warmup Iteration   2: 592.343 ops/s
+# Warmup Iteration   3: 1031.428 ops/s
+# Warmup Iteration   4: 1300.945 ops/s
+# Warmup Iteration   5: 1567.136 ops/s
+# Warmup Iteration   6: 1779.163 ops/s
+# Warmup Iteration   7: 1925.188 ops/s
+# Warmup Iteration   8: 3525.066 ops/s
+# Warmup Iteration   9: 3041.914 ops/s
+# Warmup Iteration  10: 2686.724 ops/s
+# Warmup Iteration  11: 3519.242 ops/s
+# Warmup Iteration  12: 4250.421 ops/s
+# Warmup Iteration  13: 4179.422 ops/s
+# Warmup Iteration  14: 4231.229 ops/s
+# Warmup Iteration  15: 4199.228 ops/s
+# Warmup Iteration  16: 4170.714 ops/s
+# Warmup Iteration  17: 3785.221 ops/s
+# Warmup Iteration  18: 4147.733 ops/s
+# Warmup Iteration  19: 4221.793 ops/s
+# Warmup Iteration  20: 3705.958 ops/s
+# Warmup Iteration  21: 4228.542 ops/s
+# Warmup Iteration  22: 4030.438 ops/s
+# Warmup Iteration  23: 4323.889 ops/s
+# Warmup Iteration  24: 4275.214 ops/s
+# Warmup Iteration  25: 4255.799 ops/s
+Iteration   1: 849.625 ops/s
+Iteration   2: 832.938 ops/s
+Iteration   3: 853.116 ops/s
+Iteration   4: 836.424 ops/s
+Iteration   5: 834.330 ops/s
+Iteration   6: 807.953 ops/s
+Iteration   7: 852.288 ops/s
+Iteration   8: 854.939 ops/s
+Iteration   9: 861.485 ops/s
+Iteration  10: 851.992 ops/s
+
+# Run progress: 19.99% complete, ETA 00:21:24
+# Fork: 5 of 5
+# Warmup Iteration   1: 169.306 ops/s
+# Warmup Iteration   2: 417.193 ops/s
+# Warmup Iteration   3: 778.271 ops/s
+# Warmup Iteration   4: 1155.492 ops/s
+# Warmup Iteration   5: 1693.634 ops/s
+# Warmup Iteration   6: 1934.402 ops/s
+# Warmup Iteration   7: 2674.025 ops/s
+# Warmup Iteration   8: 3666.802 ops/s
+# Warmup Iteration   9: 2612.152 ops/s
+# Warmup Iteration  10: 1901.290 ops/s
+# Warmup Iteration  11: 1775.432 ops/s
+# Warmup Iteration  12: 2967.311 ops/s
+# Warmup Iteration  13: 1420.351 ops/s
+# Warmup Iteration  14: 424.780 ops/s
+# Warmup Iteration  15: 782.562 ops/s
+# Warmup Iteration  16: 2850.692 ops/s
+# Warmup Iteration  17: 3465.157 ops/s
+# Warmup Iteration  18: 3409.776 ops/s
+# Warmup Iteration  19: 3513.493 ops/s
+# Warmup Iteration  20: 3490.085 ops/s
+# Warmup Iteration  21: 1820.753 ops/s
+# Warmup Iteration  22: 2400.611 ops/s
+# Warmup Iteration  23: 3122.095 ops/s
+# Warmup Iteration  24: 3155.589 ops/s
+# Warmup Iteration  25: 4106.630 ops/s
+Iteration   1: 821.754 ops/s
+Iteration   2: 831.613 ops/s
+Iteration   3: 848.683 ops/s
+Iteration   4: 754.924 ops/s
+Iteration   5: 819.121 ops/s
+Iteration   6: 829.128 ops/s
+Iteration   7: 750.621 ops/s
+Iteration   8: 780.332 ops/s
+Iteration   9: 806.983 ops/s
+Iteration  10: 729.275 ops/s
+
+
+Result "maxMind2":
+  825.766 ±(99.9%) 12.428 ops/s [Average]
+  (min, avg, max) = (729.275, 825.766, 861.485), stdev = 25.104
+  CI (99.9%): [813.339, 838.194] (assumes normal distribution)
+
+
+# JMH 1.12 (released 18 days ago)
+# VM version: JDK 1.8.0_77, VM 25.77-b03
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/bin/java
+# VM options: -Xmx1024m -Xms1024m -Djmh.ignoreLock=true
+# Warmup: 25 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each, 5 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: test.jmh.MindMaxBenchmark.maxMind2v2
+
+# Run progress: 22.21% complete, ETA 00:20:48
+# Fork: 1 of 5
+# Warmup Iteration   1: 33.819 ops/s
+# Warmup Iteration   2: 409.608 ops/s
+# Warmup Iteration   3: 767.220 ops/s
+# Warmup Iteration   4: 747.769 ops/s
+# Warmup Iteration   5: 483.431 ops/s
+# Warmup Iteration   6: 1157.673 ops/s
+# Warmup Iteration   7: 1159.215 ops/s
+# Warmup Iteration   8: 1215.437 ops/s
+# Warmup Iteration   9: 1151.038 ops/s
+# Warmup Iteration  10: 1195.886 ops/s
+# Warmup Iteration  11: 1411.199 ops/s
+# Warmup Iteration  12: 2007.436 ops/s
+# Warmup Iteration  13: 2761.191 ops/s
+# Warmup Iteration  14: 2998.590 ops/s
+# Warmup Iteration  15: 2113.038 ops/s
+# Warmup Iteration  16: 2414.581 ops/s
+# Warmup Iteration  17: 3669.809 ops/s
+# Warmup Iteration  18: 4149.361 ops/s
+# Warmup Iteration  19: 4036.199 ops/s
+# Warmup Iteration  20: 3678.433 ops/s
+# Warmup Iteration  21: 4036.994 ops/s
+# Warmup Iteration  22: 3707.223 ops/s
+# Warmup Iteration  23: 3939.060 ops/s
+# Warmup Iteration  24: 4167.651 ops/s
+# Warmup Iteration  25: 4190.453 ops/s
+Iteration   1: 827.065 ops/s
+Iteration   2: 852.577 ops/s
+Iteration   3: 840.269 ops/s
+Iteration   4: 835.715 ops/s
+Iteration   5: 810.651 ops/s
+Iteration   6: 850.203 ops/s
+Iteration   7: 855.476 ops/s
+Iteration   8: 753.182 ops/s
+Iteration   9: 690.288 ops/s
+Iteration  10: 834.179 ops/s
+
+# Run progress: 24.44% complete, ETA 00:20:13
+# Fork: 2 of 5
+# Warmup Iteration   1: 52.116 ops/s
+# Warmup Iteration   2: 191.341 ops/s
+# Warmup Iteration   3: 448.191 ops/s
+# Warmup Iteration   4: 583.695 ops/s
+# Warmup Iteration   5: 988.242 ops/s
+# Warmup Iteration   6: 1146.383 ops/s
+# Warmup Iteration   7: 1398.230 ops/s
+# Warmup Iteration   8: 916.385 ops/s
+# Warmup Iteration   9: 651.176 ops/s
+# Warmup Iteration  10: 1245.027 ops/s
+# Warmup Iteration  11: 1616.670 ops/s
+# Warmup Iteration  12: 1008.522 ops/s
+# Warmup Iteration  13: 2946.696 ops/s
+# Warmup Iteration  14: 3588.909 ops/s
+# Warmup Iteration  15: 2459.594 ops/s
+# Warmup Iteration  16: 2882.266 ops/s
+# Warmup Iteration  17: 3497.892 ops/s
+# Warmup Iteration  18: 4131.056 ops/s
+# Warmup Iteration  19: 4213.397 ops/s
+# Warmup Iteration  20: 4110.990 ops/s
+# Warmup Iteration  21: 4102.164 ops/s
+# Warmup Iteration  22: 4121.613 ops/s
+# Warmup Iteration  23: 4113.551 ops/s
+# Warmup Iteration  24: 4099.402 ops/s
+# Warmup Iteration  25: 4178.950 ops/s
+Iteration   1: 856.807 ops/s
+Iteration   2: 818.728 ops/s
+Iteration   3: 839.351 ops/s
+Iteration   4: 828.254 ops/s
+Iteration   5: 812.114 ops/s
+Iteration   6: 806.845 ops/s
+Iteration   7: 832.031 ops/s
+Iteration   8: 738.751 ops/s
+Iteration   9: 810.392 ops/s
+Iteration  10: 783.506 ops/s
+
+# Run progress: 26.66% complete, ETA 00:19:37
+# Fork: 3 of 5
+# Warmup Iteration   1: 79.495 ops/s
+# Warmup Iteration   2: 438.088 ops/s
+# Warmup Iteration   3: 706.356 ops/s
+# Warmup Iteration   4: 974.592 ops/s
+# Warmup Iteration   5: 1034.945 ops/s
+# Warmup Iteration   6: 1190.462 ops/s
+# Warmup Iteration   7: 1200.907 ops/s
+# Warmup Iteration   8: 1535.392 ops/s
+# Warmup Iteration   9: 2502.436 ops/s
+# Warmup Iteration  10: 3066.461 ops/s
+# Warmup Iteration  11: 2406.404 ops/s
+# Warmup Iteration  12: 1879.889 ops/s
+# Warmup Iteration  13: 2738.812 ops/s
+# Warmup Iteration  14: 3007.665 ops/s
+# Warmup Iteration  15: 3791.467 ops/s
+# Warmup Iteration  16: 4006.205 ops/s
+# Warmup Iteration  17: 3887.488 ops/s
+# Warmup Iteration  18: 3912.209 ops/s
+# Warmup Iteration  19: 3916.548 ops/s
+# Warmup Iteration  20: 4213.178 ops/s
+# Warmup Iteration  21: 4132.155 ops/s
+# Warmup Iteration  22: 3999.018 ops/s
+# Warmup Iteration  23: 4082.247 ops/s
+# Warmup Iteration  24: 4131.141 ops/s
+# Warmup Iteration  25: 4104.023 ops/s
+Iteration   1: 829.910 ops/s
+Iteration   2: 676.581 ops/s
+Iteration   3: 779.963 ops/s
+Iteration   4: 792.095 ops/s
+Iteration   5: 801.385 ops/s
+Iteration   6: 821.704 ops/s
+Iteration   7: 828.764 ops/s
+Iteration   8: 806.675 ops/s
+Iteration   9: 806.631 ops/s
+Iteration  10: 598.999 ops/s
+
+# Run progress: 28.88% complete, ETA 00:19:01
+# Fork: 4 of 5
+# Warmup Iteration   1: 49.621 ops/s
+# Warmup Iteration   2: 320.045 ops/s
+# Warmup Iteration   3: 645.153 ops/s
+# Warmup Iteration   4: 1001.171 ops/s
+# Warmup Iteration   5: 1142.709 ops/s
+# Warmup Iteration   6: 1466.821 ops/s
+# Warmup Iteration   7: 1531.204 ops/s
+# Warmup Iteration   8: 1616.786 ops/s
+# Warmup Iteration   9: 2253.072 ops/s
+# Warmup Iteration  10: 3588.830 ops/s
+# Warmup Iteration  11: 3251.732 ops/s
+# Warmup Iteration  12: 2567.948 ops/s
+# Warmup Iteration  13: 3541.081 ops/s
+# Warmup Iteration  14: 4125.147 ops/s
+# Warmup Iteration  15: 4168.015 ops/s
+# Warmup Iteration  16: 4223.567 ops/s
+# Warmup Iteration  17: 4150.502 ops/s
+# Warmup Iteration  18: 4148.658 ops/s
+# Warmup Iteration  19: 4145.973 ops/s
+# Warmup Iteration  20: 4170.877 ops/s
+# Warmup Iteration  21: 4099.881 ops/s
+# Warmup Iteration  22: 3918.530 ops/s
+# Warmup Iteration  23: 4199.955 ops/s
+# Warmup Iteration  24: 4137.117 ops/s
+# Warmup Iteration  25: 4216.818 ops/s
+Iteration   1: 781.664 ops/s
+Iteration   2: 704.212 ops/s
+Iteration   3: 733.253 ops/s
+Iteration   4: 758.057 ops/s
+Iteration   5: 803.592 ops/s
+Iteration   6: 781.866 ops/s
+Iteration   7: 804.925 ops/s
+Iteration   8: 726.310 ops/s
+Iteration   9: 790.930 ops/s
+Iteration  10: 656.517 ops/s
+
+# Run progress: 31.10% complete, ETA 00:18:26
+# Fork: 5 of 5
+# Warmup Iteration   1: 42.753 ops/s
+# Warmup Iteration   2: 194.120 ops/s
+# Warmup Iteration   3: 431.652 ops/s
+# Warmup Iteration   4: 926.514 ops/s
+# Warmup Iteration   5: 846.535 ops/s
+# Warmup Iteration   6: 1239.804 ops/s
+# Warmup Iteration   7: 1482.171 ops/s
+# Warmup Iteration   8: 1456.694 ops/s
+# Warmup Iteration   9: 1553.219 ops/s
+# Warmup Iteration  10: 1857.733 ops/s
+# Warmup Iteration  11: 2602.247 ops/s
+# Warmup Iteration  12: 3624.562 ops/s
+# Warmup Iteration  13: 3180.703 ops/s
+# Warmup Iteration  14: 2742.940 ops/s
+# Warmup Iteration  15: 4039.494 ops/s
+# Warmup Iteration  16: 3767.746 ops/s
+# Warmup Iteration  17: 4189.951 ops/s
+# Warmup Iteration  18: 4105.764 ops/s
+# Warmup Iteration  19: 3985.641 ops/s
+# Warmup Iteration  20: 4150.057 ops/s
+# Warmup Iteration  21: 3353.309 ops/s
+# Warmup Iteration  22: 3873.974 ops/s
+# Warmup Iteration  23: 4250.961 ops/s
+# Warmup Iteration  24: 4160.908 ops/s
+# Warmup Iteration  25: 3899.712 ops/s
+Iteration   1: 653.141 ops/s
+Iteration   2: 716.170 ops/s
+Iteration   3: 736.480 ops/s
+Iteration   4: 677.745 ops/s
+Iteration   5: 737.242 ops/s
+Iteration   6: 647.407 ops/s
+Iteration   7: 558.849 ops/s
+Iteration   8: 649.739 ops/s
+Iteration   9: 679.911 ops/s
+Iteration  10: 776.050 ops/s
+
+
+Result "maxMind2v2":
+  767.863 ±(99.9%) 35.938 ops/s [Average]
+  (min, avg, max) = (558.849, 767.863, 856.807), stdev = 72.596
+  CI (99.9%): [731.925, 803.801] (assumes normal distribution)
+
+
+# JMH 1.12 (released 18 days ago)
+# VM version: JDK 1.8.0_77, VM 25.77-b03
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/bin/java
+# VM options: -Xmx1024m -Xms1024m -Djmh.ignoreLock=true
+# Warmup: 25 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each, 5 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.jmh.MindMaxBenchmark.maxMind1
+
+# Run progress: 33.32% complete, ETA 00:17:50
+# Fork: 1 of 5
+# Warmup Iteration   1: ≈ 10⁻⁶ s/op
+# Warmup Iteration   2: ≈ 10⁻⁶ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+# Warmup Iteration   4: ≈ 10⁻⁶ s/op
+# Warmup Iteration   5: ≈ 10⁻⁶ s/op
+# Warmup Iteration   6: ≈ 10⁻⁶ s/op
+# Warmup Iteration   7: ≈ 10⁻⁶ s/op
+# Warmup Iteration   8: ≈ 10⁻⁶ s/op
+# Warmup Iteration   9: ≈ 10⁻⁶ s/op
+# Warmup Iteration  10: ≈ 10⁻⁶ s/op
+# Warmup Iteration  11: ≈ 10⁻⁶ s/op
+# Warmup Iteration  12: ≈ 10⁻⁶ s/op
+# Warmup Iteration  13: ≈ 10⁻⁶ s/op
+# Warmup Iteration  14: ≈ 10⁻⁶ s/op
+# Warmup Iteration  15: ≈ 10⁻⁶ s/op
+# Warmup Iteration  16: ≈ 10⁻⁶ s/op
+# Warmup Iteration  17: ≈ 10⁻⁶ s/op
+# Warmup Iteration  18: ≈ 10⁻⁶ s/op
+# Warmup Iteration  19: ≈ 10⁻⁶ s/op
+# Warmup Iteration  20: ≈ 10⁻⁶ s/op
+# Warmup Iteration  21: ≈ 10⁻⁶ s/op
+# Warmup Iteration  22: ≈ 10⁻⁶ s/op
+# Warmup Iteration  23: ≈ 10⁻⁶ s/op
+# Warmup Iteration  24: ≈ 10⁻⁶ s/op
+# Warmup Iteration  25: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁵ s/op
+Iteration   2: ≈ 10⁻⁵ s/op
+Iteration   3: ≈ 10⁻⁵ s/op
+Iteration   4: ≈ 10⁻⁵ s/op
+Iteration   5: ≈ 10⁻⁵ s/op
+Iteration   6: ≈ 10⁻⁵ s/op
+Iteration   7: ≈ 10⁻⁵ s/op
+Iteration   8: ≈ 10⁻⁵ s/op
+Iteration   9: ≈ 10⁻⁵ s/op
+Iteration  10: ≈ 10⁻⁵ s/op
+
+# Run progress: 35.54% complete, ETA 00:17:15
+# Fork: 2 of 5
+# Warmup Iteration   1: ≈ 10⁻⁶ s/op
+# Warmup Iteration   2: ≈ 10⁻⁶ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+# Warmup Iteration   4: ≈ 10⁻⁶ s/op
+# Warmup Iteration   5: ≈ 10⁻⁶ s/op
+# Warmup Iteration   6: ≈ 10⁻⁶ s/op
+# Warmup Iteration   7: ≈ 10⁻⁶ s/op
+# Warmup Iteration   8: ≈ 10⁻⁶ s/op
+# Warmup Iteration   9: ≈ 10⁻⁶ s/op
+# Warmup Iteration  10: ≈ 10⁻⁶ s/op
+# Warmup Iteration  11: ≈ 10⁻⁶ s/op
+# Warmup Iteration  12: ≈ 10⁻⁶ s/op
+# Warmup Iteration  13: ≈ 10⁻⁶ s/op
+# Warmup Iteration  14: ≈ 10⁻⁶ s/op
+# Warmup Iteration  15: ≈ 10⁻⁶ s/op
+# Warmup Iteration  16: ≈ 10⁻⁶ s/op
+# Warmup Iteration  17: ≈ 10⁻⁶ s/op
+# Warmup Iteration  18: ≈ 10⁻⁶ s/op
+# Warmup Iteration  19: ≈ 10⁻⁶ s/op
+# Warmup Iteration  20: ≈ 10⁻⁶ s/op
+# Warmup Iteration  21: ≈ 10⁻⁶ s/op
+# Warmup Iteration  22: ≈ 10⁻⁶ s/op
+# Warmup Iteration  23: ≈ 10⁻⁶ s/op
+# Warmup Iteration  24: ≈ 10⁻⁶ s/op
+# Warmup Iteration  25: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁵ s/op
+Iteration   2: ≈ 10⁻⁵ s/op
+Iteration   3: ≈ 10⁻⁵ s/op
+Iteration   4: ≈ 10⁻⁵ s/op
+Iteration   5: ≈ 10⁻⁵ s/op
+Iteration   6: ≈ 10⁻⁵ s/op
+Iteration   7: ≈ 10⁻⁵ s/op
+Iteration   8: ≈ 10⁻⁵ s/op
+Iteration   9: ≈ 10⁻⁵ s/op
+Iteration  10: ≈ 10⁻⁵ s/op
+
+# Run progress: 37.77% complete, ETA 00:16:39
+# Fork: 3 of 5
+# Warmup Iteration   1: ≈ 10⁻⁶ s/op
+# Warmup Iteration   2: ≈ 10⁻⁶ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+# Warmup Iteration   4: ≈ 10⁻⁶ s/op
+# Warmup Iteration   5: ≈ 10⁻⁶ s/op
+# Warmup Iteration   6: ≈ 10⁻⁶ s/op
+# Warmup Iteration   7: ≈ 10⁻⁶ s/op
+# Warmup Iteration   8: ≈ 10⁻⁶ s/op
+# Warmup Iteration   9: ≈ 10⁻⁶ s/op
+# Warmup Iteration  10: ≈ 10⁻⁶ s/op
+# Warmup Iteration  11: ≈ 10⁻⁶ s/op
+# Warmup Iteration  12: ≈ 10⁻⁶ s/op
+# Warmup Iteration  13: ≈ 10⁻⁶ s/op
+# Warmup Iteration  14: ≈ 10⁻⁶ s/op
+# Warmup Iteration  15: ≈ 10⁻⁶ s/op
+# Warmup Iteration  16: ≈ 10⁻⁶ s/op
+# Warmup Iteration  17: ≈ 10⁻⁶ s/op
+# Warmup Iteration  18: ≈ 10⁻⁶ s/op
+# Warmup Iteration  19: ≈ 10⁻⁶ s/op
+# Warmup Iteration  20: ≈ 10⁻⁶ s/op
+# Warmup Iteration  21: ≈ 10⁻⁶ s/op
+# Warmup Iteration  22: ≈ 10⁻⁶ s/op
+# Warmup Iteration  23: ≈ 10⁻⁶ s/op
+# Warmup Iteration  24: ≈ 10⁻⁶ s/op
+# Warmup Iteration  25: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁵ s/op
+Iteration   2: ≈ 10⁻⁵ s/op
+Iteration   3: ≈ 10⁻⁵ s/op
+Iteration   4: ≈ 10⁻⁵ s/op
+Iteration   5: ≈ 10⁻⁵ s/op
+Iteration   6: ≈ 10⁻⁵ s/op
+Iteration   7: ≈ 10⁻⁵ s/op
+Iteration   8: ≈ 10⁻⁵ s/op
+Iteration   9: ≈ 10⁻⁵ s/op
+Iteration  10: ≈ 10⁻⁵ s/op
+
+# Run progress: 39.99% complete, ETA 00:16:03
+# Fork: 4 of 5
+# Warmup Iteration   1: ≈ 10⁻⁶ s/op
+# Warmup Iteration   2: ≈ 10⁻⁶ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+# Warmup Iteration   4: ≈ 10⁻⁶ s/op
+# Warmup Iteration   5: ≈ 10⁻⁶ s/op
+# Warmup Iteration   6: ≈ 10⁻⁶ s/op
+# Warmup Iteration   7: ≈ 10⁻⁶ s/op
+# Warmup Iteration   8: ≈ 10⁻⁶ s/op
+# Warmup Iteration   9: ≈ 10⁻⁶ s/op
+# Warmup Iteration  10: ≈ 10⁻⁶ s/op
+# Warmup Iteration  11: ≈ 10⁻⁶ s/op
+# Warmup Iteration  12: ≈ 10⁻⁶ s/op
+# Warmup Iteration  13: ≈ 10⁻⁶ s/op
+# Warmup Iteration  14: ≈ 10⁻⁶ s/op
+# Warmup Iteration  15: ≈ 10⁻⁶ s/op
+# Warmup Iteration  16: ≈ 10⁻⁶ s/op
+# Warmup Iteration  17: ≈ 10⁻⁶ s/op
+# Warmup Iteration  18: ≈ 10⁻⁶ s/op
+# Warmup Iteration  19: ≈ 10⁻⁶ s/op
+# Warmup Iteration  20: ≈ 10⁻⁶ s/op
+# Warmup Iteration  21: ≈ 10⁻⁶ s/op
+# Warmup Iteration  22: ≈ 10⁻⁶ s/op
+# Warmup Iteration  23: ≈ 10⁻⁶ s/op
+# Warmup Iteration  24: ≈ 10⁻⁶ s/op
+# Warmup Iteration  25: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁵ s/op
+Iteration   2: ≈ 10⁻⁵ s/op
+Iteration   3: ≈ 10⁻⁵ s/op
+Iteration   4: ≈ 10⁻⁵ s/op
+Iteration   5: ≈ 10⁻⁵ s/op
+Iteration   6: ≈ 10⁻⁵ s/op
+Iteration   7: ≈ 10⁻⁵ s/op
+Iteration   8: ≈ 10⁻⁵ s/op
+Iteration   9: ≈ 10⁻⁵ s/op
+Iteration  10: ≈ 10⁻⁵ s/op
+
+# Run progress: 42.21% complete, ETA 00:15:28
+# Fork: 5 of 5
+# Warmup Iteration   1: ≈ 10⁻⁶ s/op
+# Warmup Iteration   2: ≈ 10⁻⁶ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+# Warmup Iteration   4: ≈ 10⁻⁶ s/op
+# Warmup Iteration   5: ≈ 10⁻⁶ s/op
+# Warmup Iteration   6: ≈ 10⁻⁶ s/op
+# Warmup Iteration   7: ≈ 10⁻⁶ s/op
+# Warmup Iteration   8: ≈ 10⁻⁶ s/op
+# Warmup Iteration   9: ≈ 10⁻⁶ s/op
+# Warmup Iteration  10: ≈ 10⁻⁶ s/op
+# Warmup Iteration  11: ≈ 10⁻⁶ s/op
+# Warmup Iteration  12: ≈ 10⁻⁶ s/op
+# Warmup Iteration  13: ≈ 10⁻⁶ s/op
+# Warmup Iteration  14: ≈ 10⁻⁶ s/op
+# Warmup Iteration  15: ≈ 10⁻⁶ s/op
+# Warmup Iteration  16: ≈ 10⁻⁶ s/op
+# Warmup Iteration  17: ≈ 10⁻⁶ s/op
+# Warmup Iteration  18: ≈ 10⁻⁶ s/op
+# Warmup Iteration  19: ≈ 10⁻⁶ s/op
+# Warmup Iteration  20: ≈ 10⁻⁶ s/op
+# Warmup Iteration  21: ≈ 10⁻⁶ s/op
+# Warmup Iteration  22: ≈ 10⁻⁶ s/op
+# Warmup Iteration  23: ≈ 10⁻⁶ s/op
+# Warmup Iteration  24: ≈ 10⁻⁶ s/op
+# Warmup Iteration  25: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁵ s/op
+Iteration   2: ≈ 10⁻⁵ s/op
+Iteration   3: ≈ 10⁻⁵ s/op
+Iteration   4: ≈ 10⁻⁵ s/op
+Iteration   5: ≈ 10⁻⁵ s/op
+Iteration   6: ≈ 10⁻⁵ s/op
+Iteration   7: ≈ 10⁻⁵ s/op
+Iteration   8: ≈ 10⁻⁵ s/op
+Iteration   9: ≈ 10⁻⁵ s/op
+Iteration  10: ≈ 10⁻⁵ s/op
+
+
+Result "maxMind1":
+  ≈ 10⁻⁵ s/op
+
+
+# JMH 1.12 (released 18 days ago)
+# VM version: JDK 1.8.0_77, VM 25.77-b03
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/bin/java
+# VM options: -Xmx1024m -Xms1024m -Djmh.ignoreLock=true
+# Warmup: 25 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each, 5 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.jmh.MindMaxBenchmark.maxMind2
+
+# Run progress: 44.43% complete, ETA 00:14:52
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.018 s/op
+# Warmup Iteration   2: 0.005 s/op
+# Warmup Iteration   3: 0.003 s/op
+# Warmup Iteration   4: 0.003 s/op
+# Warmup Iteration   5: 0.002 s/op
+# Warmup Iteration   6: 0.001 s/op
+# Warmup Iteration   7: 0.001 s/op
+# Warmup Iteration   8: 0.001 s/op
+# Warmup Iteration   9: 0.001 s/op
+# Warmup Iteration  10: 0.001 s/op
+# Warmup Iteration  11: ≈ 10⁻³ s/op
+# Warmup Iteration  12: ≈ 10⁻⁴ s/op
+# Warmup Iteration  13: ≈ 10⁻³ s/op
+# Warmup Iteration  14: 0.001 s/op
+# Warmup Iteration  15: ≈ 10⁻³ s/op
+# Warmup Iteration  16: ≈ 10⁻⁴ s/op
+# Warmup Iteration  17: ≈ 10⁻⁴ s/op
+# Warmup Iteration  18: ≈ 10⁻⁴ s/op
+# Warmup Iteration  19: ≈ 10⁻⁴ s/op
+# Warmup Iteration  20: ≈ 10⁻⁴ s/op
+# Warmup Iteration  21: ≈ 10⁻⁴ s/op
+# Warmup Iteration  22: ≈ 10⁻⁴ s/op
+# Warmup Iteration  23: ≈ 10⁻⁴ s/op
+# Warmup Iteration  24: ≈ 10⁻⁴ s/op
+# Warmup Iteration  25: ≈ 10⁻⁴ s/op
+Iteration   1: 0.001 s/op
+Iteration   2: 0.001 s/op
+Iteration   3: 0.001 s/op
+Iteration   4: 0.001 s/op
+Iteration   5: 0.001 s/op
+Iteration   6: 0.001 s/op
+Iteration   7: 0.001 s/op
+Iteration   8: 0.002 s/op
+Iteration   9: 0.001 s/op
+Iteration  10: 0.001 s/op
+
+# Run progress: 46.65% complete, ETA 00:14:16
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.007 s/op
+# Warmup Iteration   2: 0.002 s/op
+# Warmup Iteration   3: 0.001 s/op
+# Warmup Iteration   4: 0.001 s/op
+# Warmup Iteration   5: 0.001 s/op
+# Warmup Iteration   6: 0.001 s/op
+# Warmup Iteration   7: 0.001 s/op
+# Warmup Iteration   8: ≈ 10⁻³ s/op
+# Warmup Iteration   9: ≈ 10⁻⁴ s/op
+# Warmup Iteration  10: ≈ 10⁻³ s/op
+# Warmup Iteration  11: ≈ 10⁻³ s/op
+# Warmup Iteration  12: ≈ 10⁻⁴ s/op
+# Warmup Iteration  13: ≈ 10⁻⁴ s/op
+# Warmup Iteration  14: ≈ 10⁻⁴ s/op
+# Warmup Iteration  15: ≈ 10⁻⁴ s/op
+# Warmup Iteration  16: ≈ 10⁻⁴ s/op
+# Warmup Iteration  17: ≈ 10⁻⁴ s/op
+# Warmup Iteration  18: ≈ 10⁻⁴ s/op
+# Warmup Iteration  19: ≈ 10⁻⁴ s/op
+# Warmup Iteration  20: ≈ 10⁻⁴ s/op
+# Warmup Iteration  21: ≈ 10⁻⁴ s/op
+# Warmup Iteration  22: ≈ 10⁻⁴ s/op
+# Warmup Iteration  23: ≈ 10⁻⁴ s/op
+# Warmup Iteration  24: ≈ 10⁻⁴ s/op
+# Warmup Iteration  25: ≈ 10⁻⁴ s/op
+Iteration   1: 0.001 s/op
+Iteration   2: 0.001 s/op
+Iteration   3: 0.001 s/op
+Iteration   4: 0.001 s/op
+Iteration   5: 0.001 s/op
+Iteration   6: 0.001 s/op
+Iteration   7: 0.001 s/op
+Iteration   8: 0.001 s/op
+Iteration   9: 0.001 s/op
+Iteration  10: 0.001 s/op
+
+# Run progress: 48.87% complete, ETA 00:13:41
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.006 s/op
+# Warmup Iteration   2: 0.002 s/op
+# Warmup Iteration   3: 0.001 s/op
+# Warmup Iteration   4: 0.001 s/op
+# Warmup Iteration   5: 0.001 s/op
+# Warmup Iteration   6: 0.001 s/op
+# Warmup Iteration   7: 0.001 s/op
+# Warmup Iteration   8: 0.001 s/op
+# Warmup Iteration   9: ≈ 10⁻³ s/op
+# Warmup Iteration  10: ≈ 10⁻⁴ s/op
+# Warmup Iteration  11: ≈ 10⁻³ s/op
+# Warmup Iteration  12: ≈ 10⁻⁴ s/op
+# Warmup Iteration  13: ≈ 10⁻⁴ s/op
+# Warmup Iteration  14: ≈ 10⁻⁴ s/op
+# Warmup Iteration  15: ≈ 10⁻⁴ s/op
+# Warmup Iteration  16: ≈ 10⁻⁴ s/op
+# Warmup Iteration  17: ≈ 10⁻⁴ s/op
+# Warmup Iteration  18: ≈ 10⁻⁴ s/op
+# Warmup Iteration  19: ≈ 10⁻⁴ s/op
+# Warmup Iteration  20: ≈ 10⁻⁴ s/op
+# Warmup Iteration  21: ≈ 10⁻⁴ s/op
+# Warmup Iteration  22: ≈ 10⁻⁴ s/op
+# Warmup Iteration  23: ≈ 10⁻⁴ s/op
+# Warmup Iteration  24: ≈ 10⁻⁴ s/op
+# Warmup Iteration  25: ≈ 10⁻⁴ s/op
+Iteration   1: 0.001 s/op
+Iteration   2: 0.001 s/op
+Iteration   3: 0.001 s/op
+Iteration   4: 0.001 s/op
+Iteration   5: 0.001 s/op
+Iteration   6: 0.001 s/op
+Iteration   7: 0.001 s/op
+Iteration   8: 0.001 s/op
+Iteration   9: 0.001 s/op
+Iteration  10: 0.001 s/op
+
+# Run progress: 51.09% complete, ETA 00:13:05
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.005 s/op
+# Warmup Iteration   2: 0.002 s/op
+# Warmup Iteration   3: 0.001 s/op
+# Warmup Iteration   4: 0.001 s/op
+# Warmup Iteration   5: 0.001 s/op
+# Warmup Iteration   6: 0.001 s/op
+# Warmup Iteration   7: ≈ 10⁻³ s/op
+# Warmup Iteration   8: ≈ 10⁻⁴ s/op
+# Warmup Iteration   9: ≈ 10⁻³ s/op
+# Warmup Iteration  10: ≈ 10⁻³ s/op
+# Warmup Iteration  11: ≈ 10⁻⁴ s/op
+# Warmup Iteration  12: ≈ 10⁻⁴ s/op
+# Warmup Iteration  13: ≈ 10⁻⁴ s/op
+# Warmup Iteration  14: ≈ 10⁻⁴ s/op
+# Warmup Iteration  15: ≈ 10⁻⁴ s/op
+# Warmup Iteration  16: ≈ 10⁻⁴ s/op
+# Warmup Iteration  17: ≈ 10⁻⁴ s/op
+# Warmup Iteration  18: ≈ 10⁻⁴ s/op
+# Warmup Iteration  19: ≈ 10⁻⁴ s/op
+# Warmup Iteration  20: ≈ 10⁻⁴ s/op
+# Warmup Iteration  21: ≈ 10⁻⁴ s/op
+# Warmup Iteration  22: ≈ 10⁻³ s/op
+# Warmup Iteration  23: ≈ 10⁻⁴ s/op
+# Warmup Iteration  24: ≈ 10⁻⁴ s/op
+# Warmup Iteration  25: ≈ 10⁻⁴ s/op
+Iteration   1: 0.002 s/op
+Iteration   2: 0.001 s/op
+Iteration   3: 0.002 s/op
+Iteration   4: 0.002 s/op
+Iteration   5: 0.002 s/op
+Iteration   6: 0.001 s/op
+Iteration   7: 0.001 s/op
+Iteration   8: 0.001 s/op
+Iteration   9: 0.001 s/op
+Iteration  10: 0.001 s/op
+
+# Run progress: 53.32% complete, ETA 00:12:29
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.006 s/op
+# Warmup Iteration   2: 0.002 s/op
+# Warmup Iteration   3: 0.001 s/op
+# Warmup Iteration   4: 0.001 s/op
+# Warmup Iteration   5: 0.001 s/op
+# Warmup Iteration   6: 0.001 s/op
+# Warmup Iteration   7: ≈ 10⁻³ s/op
+# Warmup Iteration   8: ≈ 10⁻⁴ s/op
+# Warmup Iteration   9: ≈ 10⁻³ s/op
+# Warmup Iteration  10: ≈ 10⁻³ s/op
+# Warmup Iteration  11: ≈ 10⁻³ s/op
+# Warmup Iteration  12: ≈ 10⁻⁴ s/op
+# Warmup Iteration  13: ≈ 10⁻⁴ s/op
+# Warmup Iteration  14: ≈ 10⁻⁴ s/op
+# Warmup Iteration  15: ≈ 10⁻⁴ s/op
+# Warmup Iteration  16: ≈ 10⁻⁴ s/op
+# Warmup Iteration  17: ≈ 10⁻⁴ s/op
+# Warmup Iteration  18: ≈ 10⁻⁴ s/op
+# Warmup Iteration  19: ≈ 10⁻⁴ s/op
+# Warmup Iteration  20: ≈ 10⁻⁴ s/op
+# Warmup Iteration  21: ≈ 10⁻⁴ s/op
+# Warmup Iteration  22: ≈ 10⁻⁴ s/op
+# Warmup Iteration  23: ≈ 10⁻⁴ s/op
+# Warmup Iteration  24: ≈ 10⁻⁴ s/op
+# Warmup Iteration  25: ≈ 10⁻⁴ s/op
+Iteration   1: 0.001 s/op
+Iteration   2: 0.001 s/op
+Iteration   3: 0.001 s/op
+Iteration   4: 0.001 s/op
+Iteration   5: 0.001 s/op
+Iteration   6: 0.001 s/op
+Iteration   7: 0.001 s/op
+Iteration   8: 0.001 s/op
+Iteration   9: 0.001 s/op
+Iteration  10: 0.001 s/op
+
+
+Result "maxMind2":
+  0.001 ±(99.9%) 0.001 s/op [Average]
+  (min, avg, max) = (0.001, 0.001, 0.002), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH 1.12 (released 18 days ago)
+# VM version: JDK 1.8.0_77, VM 25.77-b03
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/bin/java
+# VM options: -Xmx1024m -Xms1024m -Djmh.ignoreLock=true
+# Warmup: 25 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each, 5 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: test.jmh.MindMaxBenchmark.maxMind2v2
+
+# Run progress: 55.54% complete, ETA 00:11:54
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.012 s/op
+# Warmup Iteration   2: 0.002 s/op
+# Warmup Iteration   3: 0.001 s/op
+# Warmup Iteration   4: 0.001 s/op
+# Warmup Iteration   5: 0.001 s/op
+# Warmup Iteration   6: 0.001 s/op
+# Warmup Iteration   7: 0.001 s/op
+# Warmup Iteration   8: 0.001 s/op
+# Warmup Iteration   9: ≈ 10⁻³ s/op
+# Warmup Iteration  10: ≈ 10⁻⁴ s/op
+# Warmup Iteration  11: ≈ 10⁻³ s/op
+# Warmup Iteration  12: ≈ 10⁻³ s/op
+# Warmup Iteration  13: ≈ 10⁻⁴ s/op
+# Warmup Iteration  14: ≈ 10⁻⁴ s/op
+# Warmup Iteration  15: ≈ 10⁻⁴ s/op
+# Warmup Iteration  16: ≈ 10⁻⁴ s/op
+# Warmup Iteration  17: ≈ 10⁻⁴ s/op
+# Warmup Iteration  18: ≈ 10⁻⁴ s/op
+# Warmup Iteration  19: ≈ 10⁻⁴ s/op
+# Warmup Iteration  20: ≈ 10⁻⁴ s/op
+# Warmup Iteration  21: 0.001 s/op
+# Warmup Iteration  22: ≈ 10⁻⁴ s/op
+# Warmup Iteration  23: ≈ 10⁻³ s/op
+# Warmup Iteration  24: ≈ 10⁻⁴ s/op
+# Warmup Iteration  25: ≈ 10⁻⁴ s/op
+Iteration   1: 0.001 s/op
+Iteration   2: 0.001 s/op
+Iteration   3: 0.001 s/op
+Iteration   4: 0.001 s/op
+Iteration   5: 0.001 s/op
+Iteration   6: 0.001 s/op
+Iteration   7: 0.001 s/op
+Iteration   8: 0.001 s/op
+Iteration   9: 0.001 s/op
+Iteration  10: 0.001 s/op
+
+# Run progress: 57.76% complete, ETA 00:11:18
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.039 s/op
+# Warmup Iteration   2: 0.002 s/op
+# Warmup Iteration   3: 0.001 s/op
+# Warmup Iteration   4: 0.001 s/op
+# Warmup Iteration   5: 0.001 s/op
+# Warmup Iteration   6: 0.001 s/op
+# Warmup Iteration   7: 0.001 s/op
+# Warmup Iteration   8: 0.001 s/op
+# Warmup Iteration   9: ≈ 10⁻³ s/op
+# Warmup Iteration  10: ≈ 10⁻⁴ s/op
+# Warmup Iteration  11: ≈ 10⁻⁴ s/op
+# Warmup Iteration  12: ≈ 10⁻³ s/op
+# Warmup Iteration  13: ≈ 10⁻⁴ s/op
+# Warmup Iteration  14: ≈ 10⁻⁴ s/op
+# Warmup Iteration  15: ≈ 10⁻⁴ s/op
+# Warmup Iteration  16: ≈ 10⁻⁴ s/op
+# Warmup Iteration  17: ≈ 10⁻⁴ s/op
+# Warmup Iteration  18: ≈ 10⁻⁴ s/op
+# Warmup Iteration  19: ≈ 10⁻⁴ s/op
+# Warmup Iteration  20: ≈ 10⁻⁴ s/op
+# Warmup Iteration  21: ≈ 10⁻⁴ s/op
+# Warmup Iteration  22: ≈ 10⁻⁴ s/op
+# Warmup Iteration  23: ≈ 10⁻⁴ s/op
+# Warmup Iteration  24: ≈ 10⁻⁴ s/op
+# Warmup Iteration  25: ≈ 10⁻⁴ s/op
+Iteration   1: 0.001 s/op
+Iteration   2: 0.001 s/op
+Iteration   3: 0.001 s/op
+Iteration   4: 0.001 s/op
+Iteration   5: 0.001 s/op
+Iteration   6: 0.002 s/op
+Iteration   7: 0.001 s/op
+Iteration   8: 0.001 s/op
+Iteration   9: 0.001 s/op
+Iteration  10: 0.001 s/op
+
+# Run progress: 59.98% complete, ETA 00:10:42
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.013 s/op
+# Warmup Iteration   2: 0.002 s/op
+# Warmup Iteration   3: 0.001 s/op
+# Warmup Iteration   4: 0.001 s/op
+# Warmup Iteration   5: 0.001 s/op
+# Warmup Iteration   6: 0.001 s/op
+# Warmup Iteration   7: ≈ 10⁻³ s/op
+# Warmup Iteration   8: ≈ 10⁻³ s/op
+# Warmup Iteration   9: ≈ 10⁻³ s/op
+# Warmup Iteration  10: 0.001 s/op
+# Warmup Iteration  11: ≈ 10⁻³ s/op
+# Warmup Iteration  12: ≈ 10⁻³ s/op
+# Warmup Iteration  13: ≈ 10⁻⁴ s/op
+# Warmup Iteration  14: ≈ 10⁻⁴ s/op
+# Warmup Iteration  15: ≈ 10⁻⁴ s/op
+# Warmup Iteration  16: ≈ 10⁻⁴ s/op
+# Warmup Iteration  17: ≈ 10⁻⁴ s/op
+# Warmup Iteration  18: ≈ 10⁻⁴ s/op
+# Warmup Iteration  19: ≈ 10⁻⁴ s/op
+# Warmup Iteration  20: ≈ 10⁻⁴ s/op
+# Warmup Iteration  21: ≈ 10⁻⁴ s/op
+# Warmup Iteration  22: ≈ 10⁻⁴ s/op
+# Warmup Iteration  23: ≈ 10⁻⁴ s/op
+# Warmup Iteration  24: ≈ 10⁻⁴ s/op
+# Warmup Iteration  25: ≈ 10⁻⁴ s/op
+Iteration   1: 0.001 s/op
+Iteration   2: 0.001 s/op
+Iteration   3: 0.001 s/op
+Iteration   4: 0.001 s/op
+Iteration   5: 0.001 s/op
+Iteration   6: 0.001 s/op
+Iteration   7: 0.001 s/op
+Iteration   8: 0.001 s/op
+Iteration   9: 0.001 s/op
+Iteration  10: 0.001 s/op
+
+# Run progress: 62.20% complete, ETA 00:10:07
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.022 s/op
+# Warmup Iteration   2: 0.002 s/op
+# Warmup Iteration   3: 0.001 s/op
+# Warmup Iteration   4: 0.001 s/op
+# Warmup Iteration   5: 0.001 s/op
+# Warmup Iteration   6: 0.001 s/op
+# Warmup Iteration   7: 0.001 s/op
+# Warmup Iteration   8: 0.001 s/op
+# Warmup Iteration   9: ≈ 10⁻³ s/op
+# Warmup Iteration  10: ≈ 10⁻⁴ s/op
+# Warmup Iteration  11: ≈ 10⁻³ s/op
+# Warmup Iteration  12: ≈ 10⁻³ s/op
+# Warmup Iteration  13: ≈ 10⁻⁴ s/op
+# Warmup Iteration  14: ≈ 10⁻⁴ s/op
+# Warmup Iteration  15: ≈ 10⁻⁴ s/op
+# Warmup Iteration  16: ≈ 10⁻⁴ s/op
+# Warmup Iteration  17: ≈ 10⁻⁴ s/op
+# Warmup Iteration  18: ≈ 10⁻⁴ s/op
+# Warmup Iteration  19: ≈ 10⁻⁴ s/op
+# Warmup Iteration  20: ≈ 10⁻⁴ s/op
+# Warmup Iteration  21: ≈ 10⁻⁴ s/op
+# Warmup Iteration  22: ≈ 10⁻⁴ s/op
+# Warmup Iteration  23: ≈ 10⁻⁴ s/op
+# Warmup Iteration  24: ≈ 10⁻⁴ s/op
+# Warmup Iteration  25: ≈ 10⁻⁴ s/op
+Iteration   1: 0.001 s/op
+Iteration   2: 0.001 s/op
+Iteration   3: 0.001 s/op
+Iteration   4: 0.001 s/op
+Iteration   5: 0.001 s/op
+Iteration   6: 0.001 s/op
+Iteration   7: 0.001 s/op
+Iteration   8: 0.001 s/op
+Iteration   9: 0.001 s/op
+Iteration  10: 0.001 s/op
+
+# Run progress: 64.42% complete, ETA 00:09:31
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.010 s/op
+# Warmup Iteration   2: 0.003 s/op
+# Warmup Iteration   3: 0.001 s/op
+# Warmup Iteration   4: 0.001 s/op
+# Warmup Iteration   5: 0.001 s/op
+# Warmup Iteration   6: 0.001 s/op
+# Warmup Iteration   7: 0.001 s/op
+# Warmup Iteration   8: 0.001 s/op
+# Warmup Iteration   9: ≈ 10⁻³ s/op
+# Warmup Iteration  10: ≈ 10⁻³ s/op
+# Warmup Iteration  11: ≈ 10⁻³ s/op
+# Warmup Iteration  12: ≈ 10⁻³ s/op
+# Warmup Iteration  13: 0.001 s/op
+# Warmup Iteration  14: ≈ 10⁻⁴ s/op
+# Warmup Iteration  15: ≈ 10⁻⁴ s/op
+# Warmup Iteration  16: ≈ 10⁻⁴ s/op
+# Warmup Iteration  17: 0.001 s/op
+# Warmup Iteration  18: ≈ 10⁻³ s/op
+# Warmup Iteration  19: ≈ 10⁻³ s/op
+# Warmup Iteration  20: ≈ 10⁻⁴ s/op
+# Warmup Iteration  21: ≈ 10⁻³ s/op
+# Warmup Iteration  22: 0.001 s/op
+# Warmup Iteration  23: 0.001 s/op
+# Warmup Iteration  24: 0.001 s/op
+# Warmup Iteration  25: 0.001 s/op
+Iteration   1: 0.001 s/op
+Iteration   2: 0.001 s/op
+Iteration   3: 0.001 s/op
+Iteration   4: 0.001 s/op
+Iteration   5: 0.001 s/op
+Iteration   6: 0.001 s/op
+Iteration   7: 0.002 s/op
+Iteration   8: 0.002 s/op
+Iteration   9: 0.002 s/op
+Iteration  10: 0.001 s/op
+
+
+Result "maxMind2v2":
+  0.001 ±(99.9%) 0.001 s/op [Average]
+  (min, avg, max) = (0.001, 0.001, 0.002), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH 1.12 (released 18 days ago)
+# VM version: JDK 1.8.0_77, VM 25.77-b03
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/bin/java
+# VM options: -Xmx1024m -Xms1024m -Djmh.ignoreLock=true
+# Warmup: 25 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each, 5 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: test.jmh.MindMaxBenchmark.maxMind1
+
+# Run progress: 66.64% complete, ETA 00:08:55
+# Fork: 1 of 5
+# Warmup Iteration   1: n = 30335, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   2: n = 23578, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   3: n = 11859, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   4: n = 11908, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   5: n = 11942, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   6: n = 10258, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   7: n = 12613, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   8: n = 13077, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   9: n = 12115, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  10: n = 13427, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  11: n = 13915, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  12: n = 10257, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  13: n = 13594, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  14: n = 12839, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  15: n = 12736, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  16: n = 13559, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  17: n = 12325, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  18: n = 10204, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  19: n = 12859, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  20: n = 12853, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  21: n = 13030, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  22: n = 12754, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  23: n = 13623, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  24: n = 13214, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  25: n = 12412, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   1: n = 2273, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   2: n = 2575, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   3: n = 2399, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   4: n = 2478, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   5: n = 2457, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   6: n = 2656, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   7: n = 2743, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   8: n = 2856, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   9: n = 2769, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration  10: n = 2781, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+
+# Run progress: 68.87% complete, ETA 00:08:20
+# Fork: 2 of 5
+# Warmup Iteration   1: n = 31371, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   2: n = 23276, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   3: n = 12348, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   4: n = 12184, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   5: n = 13001, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   6: n = 12313, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   7: n = 13958, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   8: n = 13130, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   9: n = 13412, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  10: n = 13618, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  11: n = 13274, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  12: n = 13650, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  13: n = 13493, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  14: n = 13171, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  15: n = 12861, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  16: n = 13685, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  17: n = 13712, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  18: n = 13789, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  19: n = 13569, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  20: n = 13292, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  21: n = 12102, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  22: n = 12836, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  23: n = 11373, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  24: n = 12944, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  25: n = 13020, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   1: n = 2400, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   2: n = 2369, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   3: n = 2355, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   4: n = 2613, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   5: n = 2606, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   6: n = 2625, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   7: n = 2627, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   8: n = 2536, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   9: n = 2490, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration  10: n = 2452, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+
+# Run progress: 71.09% complete, ETA 00:07:44
+# Fork: 3 of 5
+# Warmup Iteration   1: n = 32404, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   2: n = 23058, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   3: n = 12562, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   4: n = 13356, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   5: n = 13429, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   6: n = 13015, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   7: n = 12835, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   8: n = 13319, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   9: n = 12975, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  10: n = 12815, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  11: n = 12927, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  12: n = 13247, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  13: n = 13032, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  14: n = 13108, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  15: n = 12639, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  16: n = 13907, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  17: n = 13441, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  18: n = 12819, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  19: n = 13800, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  20: n = 13639, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  21: n = 12803, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  22: n = 12663, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  23: n = 11933, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  24: n = 12417, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  25: n = 12120, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   1: n = 2673, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   2: n = 2713, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   3: n = 2646, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   4: n = 2666, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   5: n = 2722, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   6: n = 2717, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   7: n = 2702, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   8: n = 2583, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   9: n = 2719, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration  10: n = 2782, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+
+# Run progress: 73.31% complete, ETA 00:07:08
+# Fork: 4 of 5
+# Warmup Iteration   1: n = 31409, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   2: n = 25764, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   3: n = 11404, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   4: n = 10714, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   5: n = 11707, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   6: n = 13118, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   7: n = 13138, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   8: n = 13282, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   9: n = 13068, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  10: n = 13378, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  11: n = 13299, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  12: n = 12736, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  13: n = 10381, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  14: n = 12784, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  15: n = 13021, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  16: n = 11946, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  17: n = 12745, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  18: n = 11393, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  19: n = 10663, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  20: n = 14376, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  21: n = 14110, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  22: n = 14346, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  23: n = 13914, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  24: n = 13797, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  25: n = 13806, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   1: n = 2681, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   2: n = 2852, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   3: n = 2849, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   4: n = 2782, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   5: n = 2730, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   6: n = 2686, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   7: n = 2774, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   8: n = 2595, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   9: n = 2519, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration  10: n = 2427, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+
+# Run progress: 75.53% complete, ETA 00:06:33
+# Fork: 5 of 5
+# Warmup Iteration   1: n = 27915, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   2: n = 26249, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   3: n = 13918, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   4: n = 13571, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   5: n = 9815, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   6: n = 13511, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   7: n = 14323, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   8: n = 13421, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   9: n = 10417, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  10: n = 12888, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  11: n = 13445, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  12: n = 13537, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  13: n = 13468, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  14: n = 13649, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  15: n = 14217, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  16: n = 13836, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  17: n = 11388, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  18: n = 13903, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  19: n = 12815, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  20: n = 10704, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  21: n = 13758, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  22: n = 14007, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  23: n = 14300, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  24: n = 14322, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  25: n = 14520, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   1: n = 2716, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   2: n = 2728, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   3: n = 2746, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   4: n = 2844, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   5: n = 2909, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   6: n = 2690, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   7: n = 2017, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   8: n = 2371, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   9: n = 2866, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration  10: n = 2701, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+
+
+Result "maxMind1":
+  N = 131466
+  mean =     ≈ 10⁻⁵ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.000, 0.000) = 131453
+    [0.000, 0.000) = 5
+    [0.000, 0.000) = 3
+    [0.000, 0.001) = 1
+    [0.001, 0.001) = 2
+    [0.001, 0.001) = 0
+    [0.001, 0.001) = 0
+    [0.001, 0.001) = 0
+    [0.001, 0.001) = 1
+    [0.001, 0.001) = 0
+    [0.001, 0.001) = 0
+    [0.001, 0.002) = 1
+    [0.002, 0.002) = 0
+    [0.002, 0.002) = 0
+    [0.002, 0.002) = 0
+
+  Percentiles, s/op:
+      p(0.0000) =     ≈ 10⁻⁶ s/op
+     p(50.0000) =     ≈ 10⁻⁵ s/op
+     p(90.0000) =     ≈ 10⁻⁵ s/op
+     p(95.0000) =     ≈ 10⁻⁵ s/op
+     p(99.0000) =     ≈ 10⁻⁵ s/op
+     p(99.9000) =     ≈ 10⁻⁴ s/op
+     p(99.9900) =     ≈ 10⁻⁴ s/op
+     p(99.9990) =      0.001 s/op
+     p(99.9999) =      0.001 s/op
+    p(100.0000) =      0.001 s/op
+
+
+# JMH 1.12 (released 18 days ago)
+# VM version: JDK 1.8.0_77, VM 25.77-b03
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/bin/java
+# VM options: -Xmx1024m -Xms1024m -Djmh.ignoreLock=true
+# Warmup: 25 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each, 5 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: test.jmh.MindMaxBenchmark.maxMind2
+
+# Run progress: 77.75% complete, ETA 00:05:57
+# Fork: 1 of 5
+# Warmup Iteration   1: n = 136, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   2: n = 445, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   3: n = 839, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   4: n = 1131, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   5: n = 1144, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   6: n = 1408, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   7: n = 1221, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   8: n = 1014, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   9: n = 1065, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  10: n = 1660, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  11: n = 2720, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  12: n = 1805, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  13: n = 2030, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  14: n = 2245, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  15: n = 2980, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  16: n = 3561, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  17: n = 3672, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  18: n = 3677, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  19: n = 3324, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  20: n = 3203, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  21: n = 3377, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  22: n = 4211, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  23: n = 4056, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  24: n = 3336, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  25: n = 3055, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   1: n = 629, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   2: n = 842, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   3: n = 765, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   4: n = 755, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   5: n = 809, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   6: n = 735, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   7: n = 752, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   8: n = 653, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   9: n = 755, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration  10: n = 434, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+
+# Run progress: 79.97% complete, ETA 00:05:21
+# Fork: 2 of 5
+# Warmup Iteration   1: n = 154, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   2: n = 378, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   3: n = 652, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   4: n = 695, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   5: n = 908, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   6: n = 1264, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   7: n = 1330, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   8: n = 1264, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   9: n = 1384, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  10: n = 2578, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  11: n = 2871, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  12: n = 2175, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  13: n = 1726, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  14: n = 3027, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  15: n = 3502, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  16: n = 3729, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  17: n = 3592, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  18: n = 4143, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  19: n = 3290, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  20: n = 3629, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  21: n = 4097, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  22: n = 3697, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  23: n = 4271, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  24: n = 3792, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  25: n = 4241, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   1: n = 774, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   2: n = 770, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   3: n = 752, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   4: n = 792, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   5: n = 694, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   6: n = 685, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   7: n = 804, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   8: n = 700, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   9: n = 695, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration  10: n = 595, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+
+# Run progress: 82.19% complete, ETA 00:04:46
+# Fork: 3 of 5
+# Warmup Iteration   1: n = 108, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   2: n = 366, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   3: n = 494, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   4: n = 677, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   5: n = 834, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   6: n = 1079, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   7: n = 1329, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   8: n = 1168, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   9: n = 1494, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  10: n = 2089, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  11: n = 3351, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  12: n = 2137, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  13: n = 2455, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  14: n = 2932, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  15: n = 3311, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  16: n = 2957, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  17: n = 3877, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  18: n = 4154, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  19: n = 4233, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  20: n = 4175, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  21: n = 4304, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  22: n = 4232, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  23: n = 3821, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  24: n = 3758, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  25: n = 3921, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   1: n = 797, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   2: n = 657, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   3: n = 743, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   4: n = 627, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   5: n = 787, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   6: n = 790, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   7: n = 501, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   8: n = 696, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   9: n = 861, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration  10: n = 750, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+
+# Run progress: 84.42% complete, ETA 00:04:10
+# Fork: 4 of 5
+# Warmup Iteration   1: n = 72, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   2: n = 413, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   3: n = 529, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   4: n = 882, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   5: n = 735, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   6: n = 1026, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   7: n = 1178, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   8: n = 657, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   9: n = 932, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  10: n = 1292, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  11: n = 1742, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  12: n = 2689, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  13: n = 3362, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  14: n = 2529, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  15: n = 2432, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  16: n = 3930, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  17: n = 3966, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  18: n = 3791, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  19: n = 3716, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  20: n = 3942, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  21: n = 4227, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  22: n = 4071, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  23: n = 3954, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  24: n = 4109, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  25: n = 4260, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   1: n = 784, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   2: n = 821, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   3: n = 824, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   4: n = 834, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   5: n = 838, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   6: n = 848, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   7: n = 862, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   8: n = 838, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   9: n = 863, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration  10: n = 843, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+
+# Run progress: 86.64% complete, ETA 00:03:34
+# Fork: 5 of 5
+# Warmup Iteration   1: n = 118, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   2: n = 466, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   3: n = 690, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   4: n = 873, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   5: n = 1029, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   6: n = 1063, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   7: n = 1139, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   8: n = 1417, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   9: n = 2474, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  10: n = 3698, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  11: n = 2450, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  12: n = 2956, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  13: n = 3822, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  14: n = 3837, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  15: n = 3814, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  16: n = 4304, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  17: n = 4036, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  18: n = 3670, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  19: n = 3747, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  20: n = 3747, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  21: n = 4157, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  22: n = 4162, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  23: n = 3695, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  24: n = 4083, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  25: n = 4335, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   1: n = 864, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   2: n = 875, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   3: n = 828, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   4: n = 848, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   5: n = 852, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   6: n = 812, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   7: n = 812, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   8: n = 790, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   9: n = 762, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration  10: n = 790, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+
+
+Result "maxMind2":
+  N = 38187
+  mean =      0.001 ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.000, 0.003) = 37077
+    [0.003, 0.005) = 1037
+    [0.005, 0.008) = 58
+    [0.008, 0.010) = 6
+    [0.010, 0.013) = 5
+    [0.013, 0.015) = 0
+    [0.015, 0.018) = 2
+    [0.018, 0.020) = 1
+    [0.020, 0.023) = 0
+    [0.023, 0.025) = 0
+    [0.025, 0.028) = 0
+    [0.028, 0.030) = 0
+    [0.030, 0.033) = 0
+    [0.033, 0.035) = 0
+    [0.035, 0.038) = 0
+
+  Percentiles, s/op:
+      p(0.0000) =     ≈ 10⁻³ s/op
+     p(50.0000) =      0.001 s/op
+     p(90.0000) =      0.002 s/op
+     p(95.0000) =      0.002 s/op
+     p(99.0000) =      0.003 s/op
+     p(99.9000) =      0.006 s/op
+     p(99.9900) =      0.015 s/op
+     p(99.9990) =      0.040 s/op
+     p(99.9999) =      0.040 s/op
+    p(100.0000) =      0.040 s/op
+
+
+# JMH 1.12 (released 18 days ago)
+# VM version: JDK 1.8.0_77, VM 25.77-b03
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/bin/java
+# VM options: -Xmx1024m -Xms1024m -Djmh.ignoreLock=true
+# Warmup: 25 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each, 5 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: test.jmh.MindMaxBenchmark.maxMind2v2
+
+# Run progress: 88.86% complete, ETA 00:02:59
+# Fork: 1 of 5
+# Warmup Iteration   1: n = 22, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 1, 1, 1, 1, 1 s/op
+# Warmup Iteration   2: n = 252, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   3: n = 243, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   4: n = 612, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   5: n = 998, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   6: n = 1209, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   7: n = 1587, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   8: n = 1364, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   9: n = 1381, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  10: n = 738, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  11: n = 1635, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  12: n = 2057, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  13: n = 2852, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  14: n = 2373, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  15: n = 1222, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  16: n = 2769, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  17: n = 3517, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  18: n = 2579, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  19: n = 3957, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  20: n = 3437, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  21: n = 2856, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  22: n = 3043, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  23: n = 3414, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  24: n = 3976, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  25: n = 4184, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   1: n = 759, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   2: n = 696, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   3: n = 716, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   4: n = 717, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   5: n = 722, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   6: n = 812, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   7: n = 769, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   8: n = 573, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   9: n = 641, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration  10: n = 722, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+
+# Run progress: 91.08% complete, ETA 00:02:23
+# Fork: 2 of 5
+# Warmup Iteration   1: n = 24, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 1, 1, 1, 1, 1 s/op
+# Warmup Iteration   2: n = 340, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   3: n = 682, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   4: n = 587, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   5: n = 904, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   6: n = 722, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   7: n = 1075, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   8: n = 1152, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   9: n = 1361, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  10: n = 2167, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  11: n = 3038, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  12: n = 2348, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  13: n = 1781, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  14: n = 1774, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  15: n = 2338, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  16: n = 2840, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  17: n = 3210, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  18: n = 3367, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  19: n = 3119, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  20: n = 2918, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  21: n = 3069, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  22: n = 3879, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  23: n = 4274, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  24: n = 4236, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  25: n = 4243, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   1: n = 814, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   2: n = 725, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   3: n = 627, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   4: n = 679, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   5: n = 677, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   6: n = 683, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   7: n = 674, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   8: n = 697, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   9: n = 621, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration  10: n = 632, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+
+# Run progress: 93.30% complete, ETA 00:01:47
+# Fork: 3 of 5
+# Warmup Iteration   1: n = 11, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 1, 1, 1, 1, 1, 1 s/op
+# Warmup Iteration   2: n = 304, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   3: n = 530, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   4: n = 674, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   5: n = 708, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   6: n = 1092, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   7: n = 1024, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   8: n = 1300, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   9: n = 1607, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  10: n = 2986, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  11: n = 3128, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  12: n = 1939, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  13: n = 2156, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  14: n = 3238, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  15: n = 3740, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  16: n = 3379, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  17: n = 3961, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  18: n = 3823, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  19: n = 3827, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  20: n = 4113, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  21: n = 3978, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  22: n = 4110, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  23: n = 3942, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  24: n = 3302, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  25: n = 2645, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   1: n = 699, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   2: n = 685, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   3: n = 479, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   4: n = 566, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   5: n = 450, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   6: n = 397, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   7: n = 377, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   8: n = 451, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   9: n = 568, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration  10: n = 475, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+
+# Run progress: 95.52% complete, ETA 00:01:12
+# Fork: 4 of 5
+# Warmup Iteration   1: n = 8, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 1, 1, 1, 1, 1, 1 s/op
+# Warmup Iteration   2: n = 145, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   3: n = 263, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   4: n = 400, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   5: n = 687, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   6: n = 612, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   7: n = 881, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   8: n = 940, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   9: n = 926, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  10: n = 782, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  11: n = 743, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  12: n = 626, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  13: n = 1523, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  14: n = 2289, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  15: n = 2161, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  16: n = 1155, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  17: n = 1090, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  18: n = 1531, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  19: n = 2898, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  20: n = 4009, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  21: n = 4068, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  22: n = 3719, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  23: n = 3990, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  24: n = 3879, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  25: n = 3504, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   1: n = 675, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   2: n = 689, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   3: n = 792, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   4: n = 731, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   5: n = 742, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   6: n = 795, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   7: n = 744, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   8: n = 693, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   9: n = 679, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration  10: n = 779, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+
+# Run progress: 97.75% complete, ETA 00:00:36
+# Fork: 5 of 5
+# Warmup Iteration   1: n = 29, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 1, 1, 1, 1 s/op
+# Warmup Iteration   2: n = 341, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   3: n = 483, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   4: n = 690, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   5: n = 915, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   6: n = 1049, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   7: n = 838, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   8: n = 876, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration   9: n = 830, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  10: n = 969, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  11: n = 974, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  12: n = 1019, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  13: n = 2079, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  14: n = 2745, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  15: n = 1645, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  16: n = 1523, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  17: n = 1506, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  18: n = 2922, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  19: n = 3376, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  20: n = 3010, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  21: n = 2825, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  22: n = 3837, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  23: n = 3450, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  24: n = 2964, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+# Warmup Iteration  25: n = 3092, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   1: n = 641, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   2: n = 693, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   3: n = 787, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   4: n = 746, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   5: n = 701, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   6: n = 831, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   7: n = 847, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   8: n = 695, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration   9: n = 833, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+Iteration  10: n = 868, mean = 0 s/op, p{0.00, 0.50, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.00} = 0, 0, 0, 0, 0, 0, 0, 0 s/op
+
+
+Result "maxMind2v2":
+  N = 34064
+  mean =      0.001 ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.000, 0.001) = 18795
+    [0.001, 0.003) = 13037
+    [0.003, 0.004) = 1532
+    [0.004, 0.005) = 384
+    [0.005, 0.006) = 173
+    [0.006, 0.008) = 96
+    [0.008, 0.009) = 24
+    [0.009, 0.010) = 10
+    [0.010, 0.011) = 4
+    [0.011, 0.013) = 2
+    [0.013, 0.014) = 0
+    [0.014, 0.015) = 3
+    [0.015, 0.016) = 2
+    [0.016, 0.018) = 2
+    [0.018, 0.019) = 0
+
+  Percentiles, s/op:
+      p(0.0000) =     ≈ 10⁻³ s/op
+     p(50.0000) =      0.001 s/op
+     p(90.0000) =      0.002 s/op
+     p(95.0000) =      0.003 s/op
+     p(99.0000) =      0.005 s/op
+     p(99.9000) =      0.008 s/op
+     p(99.9900) =      0.015 s/op
+     p(99.9990) =      0.016 s/op
+     p(99.9999) =      0.016 s/op
+    p(100.0000) =      0.016 s/op
+
+
+# JMH 1.12 (released 18 days ago)
+# VM version: JDK 1.8.0_77, VM 25.77-b03
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/bin/java
+# VM options: -Xmx1024m -Xms1024m -Djmh.ignoreLock=true
+# Warmup: 25 iterations, single-shot each
+# Measurement: 10 iterations, single-shot each, 5 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: test.jmh.MindMaxBenchmark.maxMind1
+
+# Run progress: 99.97% complete, ETA 00:00:00
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.133 s/op
+# Warmup Iteration   2: ≈ 10⁻⁴ s/op
+# Warmup Iteration   3: ≈ 10⁻⁴ s/op
+# Warmup Iteration   4: ≈ 10⁻⁴ s/op
+# Warmup Iteration   5: ≈ 10⁻⁴ s/op
+# Warmup Iteration   6: ≈ 10⁻⁴ s/op
+# Warmup Iteration   7: ≈ 10⁻⁴ s/op
+# Warmup Iteration   8: ≈ 10⁻⁴ s/op
+# Warmup Iteration   9: ≈ 10⁻⁴ s/op
+# Warmup Iteration  10: ≈ 10⁻⁴ s/op
+# Warmup Iteration  11: ≈ 10⁻⁴ s/op
+# Warmup Iteration  12: ≈ 10⁻⁴ s/op
+# Warmup Iteration  13: ≈ 10⁻⁴ s/op
+# Warmup Iteration  14: ≈ 10⁻⁴ s/op
+# Warmup Iteration  15: ≈ 10⁻⁴ s/op
+# Warmup Iteration  16: ≈ 10⁻⁴ s/op
+# Warmup Iteration  17: ≈ 10⁻⁴ s/op
+# Warmup Iteration  18: ≈ 10⁻⁴ s/op
+# Warmup Iteration  19: ≈ 10⁻⁴ s/op
+# Warmup Iteration  20: ≈ 10⁻⁴ s/op
+# Warmup Iteration  21: ≈ 10⁻⁴ s/op
+# Warmup Iteration  22: ≈ 10⁻⁴ s/op
+# Warmup Iteration  23: ≈ 10⁻⁴ s/op
+# Warmup Iteration  24: ≈ 10⁻⁴ s/op
+# Warmup Iteration  25: ≈ 10⁻⁴ s/op
+Iteration   1: ≈ 10⁻⁴ s/op
+Iteration   2: ≈ 10⁻⁴ s/op
+Iteration   3: ≈ 10⁻⁴ s/op
+Iteration   4: ≈ 10⁻⁴ s/op
+Iteration   5: ≈ 10⁻⁴ s/op
+Iteration   6: ≈ 10⁻⁴ s/op
+Iteration   7: ≈ 10⁻⁴ s/op
+Iteration   8: ≈ 10⁻⁴ s/op
+Iteration   9: ≈ 10⁻⁴ s/op
+Iteration  10: ≈ 10⁻⁴ s/op
+
+# Run progress: 99.97% complete, ETA 00:00:00
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.106 s/op
+# Warmup Iteration   2: ≈ 10⁻⁴ s/op
+# Warmup Iteration   3: ≈ 10⁻⁴ s/op
+# Warmup Iteration   4: ≈ 10⁻⁴ s/op
+# Warmup Iteration   5: ≈ 10⁻⁴ s/op
+# Warmup Iteration   6: ≈ 10⁻⁴ s/op
+# Warmup Iteration   7: ≈ 10⁻⁴ s/op
+# Warmup Iteration   8: ≈ 10⁻⁴ s/op
+# Warmup Iteration   9: ≈ 10⁻⁴ s/op
+# Warmup Iteration  10: ≈ 10⁻⁴ s/op
+# Warmup Iteration  11: ≈ 10⁻⁴ s/op
+# Warmup Iteration  12: ≈ 10⁻⁴ s/op
+# Warmup Iteration  13: ≈ 10⁻⁴ s/op
+# Warmup Iteration  14: ≈ 10⁻⁴ s/op
+# Warmup Iteration  15: ≈ 10⁻⁴ s/op
+# Warmup Iteration  16: ≈ 10⁻⁴ s/op
+# Warmup Iteration  17: ≈ 10⁻⁴ s/op
+# Warmup Iteration  18: ≈ 10⁻⁴ s/op
+# Warmup Iteration  19: ≈ 10⁻⁴ s/op
+# Warmup Iteration  20: ≈ 10⁻⁴ s/op
+# Warmup Iteration  21: ≈ 10⁻⁴ s/op
+# Warmup Iteration  22: ≈ 10⁻⁴ s/op
+# Warmup Iteration  23: ≈ 10⁻⁴ s/op
+# Warmup Iteration  24: ≈ 10⁻⁴ s/op
+# Warmup Iteration  25: ≈ 10⁻⁴ s/op
+Iteration   1: ≈ 10⁻⁴ s/op
+Iteration   2: ≈ 10⁻⁴ s/op
+Iteration   3: ≈ 10⁻⁴ s/op
+Iteration   4: ≈ 10⁻⁴ s/op
+Iteration   5: ≈ 10⁻⁴ s/op
+Iteration   6: ≈ 10⁻⁴ s/op
+Iteration   7: ≈ 10⁻⁴ s/op
+Iteration   8: ≈ 10⁻⁴ s/op
+Iteration   9: ≈ 10⁻⁴ s/op
+Iteration  10: ≈ 10⁻⁴ s/op
+
+# Run progress: 99.97% complete, ETA 00:00:00
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.110 s/op
+# Warmup Iteration   2: ≈ 10⁻⁴ s/op
+# Warmup Iteration   3: ≈ 10⁻⁴ s/op
+# Warmup Iteration   4: ≈ 10⁻⁴ s/op
+# Warmup Iteration   5: ≈ 10⁻⁴ s/op
+# Warmup Iteration   6: ≈ 10⁻⁴ s/op
+# Warmup Iteration   7: ≈ 10⁻⁴ s/op
+# Warmup Iteration   8: ≈ 10⁻⁴ s/op
+# Warmup Iteration   9: ≈ 10⁻⁴ s/op
+# Warmup Iteration  10: ≈ 10⁻⁴ s/op
+# Warmup Iteration  11: ≈ 10⁻⁴ s/op
+# Warmup Iteration  12: ≈ 10⁻⁴ s/op
+# Warmup Iteration  13: ≈ 10⁻⁴ s/op
+# Warmup Iteration  14: ≈ 10⁻⁴ s/op
+# Warmup Iteration  15: ≈ 10⁻⁴ s/op
+# Warmup Iteration  16: ≈ 10⁻⁴ s/op
+# Warmup Iteration  17: ≈ 10⁻⁴ s/op
+# Warmup Iteration  18: ≈ 10⁻⁴ s/op
+# Warmup Iteration  19: ≈ 10⁻⁴ s/op
+# Warmup Iteration  20: ≈ 10⁻⁴ s/op
+# Warmup Iteration  21: ≈ 10⁻⁴ s/op
+# Warmup Iteration  22: ≈ 10⁻⁴ s/op
+# Warmup Iteration  23: ≈ 10⁻⁴ s/op
+# Warmup Iteration  24: ≈ 10⁻⁴ s/op
+# Warmup Iteration  25: ≈ 10⁻⁴ s/op
+Iteration   1: ≈ 10⁻⁴ s/op
+Iteration   2: ≈ 10⁻⁴ s/op
+Iteration   3: ≈ 10⁻⁴ s/op
+Iteration   4: ≈ 10⁻⁴ s/op
+Iteration   5: ≈ 10⁻⁴ s/op
+Iteration   6: ≈ 10⁻⁴ s/op
+Iteration   7: ≈ 10⁻⁴ s/op
+Iteration   8: ≈ 10⁻⁴ s/op
+Iteration   9: ≈ 10⁻⁴ s/op
+Iteration  10: ≈ 10⁻⁴ s/op
+
+# Run progress: 99.97% complete, ETA 00:00:00
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.122 s/op
+# Warmup Iteration   2: ≈ 10⁻⁴ s/op
+# Warmup Iteration   3: ≈ 10⁻⁴ s/op
+# Warmup Iteration   4: ≈ 10⁻⁴ s/op
+# Warmup Iteration   5: ≈ 10⁻⁴ s/op
+# Warmup Iteration   6: ≈ 10⁻⁴ s/op
+# Warmup Iteration   7: ≈ 10⁻⁴ s/op
+# Warmup Iteration   8: ≈ 10⁻⁴ s/op
+# Warmup Iteration   9: ≈ 10⁻⁴ s/op
+# Warmup Iteration  10: ≈ 10⁻⁴ s/op
+# Warmup Iteration  11: ≈ 10⁻⁴ s/op
+# Warmup Iteration  12: ≈ 10⁻⁴ s/op
+# Warmup Iteration  13: ≈ 10⁻⁴ s/op
+# Warmup Iteration  14: ≈ 10⁻⁴ s/op
+# Warmup Iteration  15: ≈ 10⁻⁴ s/op
+# Warmup Iteration  16: ≈ 10⁻⁴ s/op
+# Warmup Iteration  17: ≈ 10⁻⁴ s/op
+# Warmup Iteration  18: ≈ 10⁻⁴ s/op
+# Warmup Iteration  19: ≈ 10⁻⁴ s/op
+# Warmup Iteration  20: ≈ 10⁻⁴ s/op
+# Warmup Iteration  21: ≈ 10⁻⁴ s/op
+# Warmup Iteration  22: ≈ 10⁻⁴ s/op
+# Warmup Iteration  23: ≈ 10⁻⁴ s/op
+# Warmup Iteration  24: ≈ 10⁻⁴ s/op
+# Warmup Iteration  25: ≈ 10⁻⁴ s/op
+Iteration   1: ≈ 10⁻⁴ s/op
+Iteration   2: ≈ 10⁻⁴ s/op
+Iteration   3: ≈ 10⁻⁴ s/op
+Iteration   4: ≈ 10⁻⁴ s/op
+Iteration   5: ≈ 10⁻⁴ s/op
+Iteration   6: ≈ 10⁻⁴ s/op
+Iteration   7: ≈ 10⁻⁴ s/op
+Iteration   8: ≈ 10⁻⁴ s/op
+Iteration   9: ≈ 10⁻⁴ s/op
+Iteration  10: ≈ 10⁻⁴ s/op
+
+# Run progress: 99.98% complete, ETA 00:00:00
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.121 s/op
+# Warmup Iteration   2: ≈ 10⁻⁴ s/op
+# Warmup Iteration   3: ≈ 10⁻⁴ s/op
+# Warmup Iteration   4: ≈ 10⁻⁴ s/op
+# Warmup Iteration   5: ≈ 10⁻⁴ s/op
+# Warmup Iteration   6: ≈ 10⁻⁴ s/op
+# Warmup Iteration   7: ≈ 10⁻⁴ s/op
+# Warmup Iteration   8: ≈ 10⁻⁴ s/op
+# Warmup Iteration   9: ≈ 10⁻⁴ s/op
+# Warmup Iteration  10: ≈ 10⁻³ s/op
+# Warmup Iteration  11: ≈ 10⁻⁴ s/op
+# Warmup Iteration  12: ≈ 10⁻⁴ s/op
+# Warmup Iteration  13: ≈ 10⁻⁴ s/op
+# Warmup Iteration  14: ≈ 10⁻⁴ s/op
+# Warmup Iteration  15: ≈ 10⁻⁴ s/op
+# Warmup Iteration  16: ≈ 10⁻⁴ s/op
+# Warmup Iteration  17: ≈ 10⁻⁴ s/op
+# Warmup Iteration  18: ≈ 10⁻⁴ s/op
+# Warmup Iteration  19: ≈ 10⁻⁴ s/op
+# Warmup Iteration  20: ≈ 10⁻⁴ s/op
+# Warmup Iteration  21: ≈ 10⁻⁴ s/op
+# Warmup Iteration  22: ≈ 10⁻⁴ s/op
+# Warmup Iteration  23: ≈ 10⁻⁴ s/op
+# Warmup Iteration  24: ≈ 10⁻⁴ s/op
+# Warmup Iteration  25: ≈ 10⁻⁴ s/op
+Iteration   1: ≈ 10⁻⁴ s/op
+Iteration   2: ≈ 10⁻⁴ s/op
+Iteration   3: ≈ 10⁻⁴ s/op
+Iteration   4: ≈ 10⁻⁴ s/op
+Iteration   5: ≈ 10⁻⁴ s/op
+Iteration   6: ≈ 10⁻⁴ s/op
+Iteration   7: ≈ 10⁻⁴ s/op
+Iteration   8: ≈ 10⁻⁴ s/op
+Iteration   9: ≈ 10⁻⁴ s/op
+Iteration  10: ≈ 10⁻⁴ s/op
+
+
+Result "maxMind1":
+  N = 50
+  mean =     ≈ 10⁻⁴ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 2
+    [ 0.000,  0.000) = 7
+    [ 0.000,  0.000) = 5
+    [ 0.000,  0.000) = 11
+    [ 0.000,  0.000) = 10
+    [ 0.000,  0.000) = 8
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 4
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 1
+    [ 0.000,  0.000) = 0
+    [ 0.000,  0.000) = 0
+
+  Percentiles, s/op:
+      p(0.0000) =     ≈ 10⁻⁴ s/op
+     p(50.0000) =     ≈ 10⁻⁴ s/op
+     p(90.0000) =     ≈ 10⁻⁴ s/op
+     p(95.0000) =     ≈ 10⁻⁴ s/op
+     p(99.0000) =     ≈ 10⁻⁴ s/op
+     p(99.9000) =     ≈ 10⁻⁴ s/op
+     p(99.9900) =     ≈ 10⁻⁴ s/op
+     p(99.9990) =     ≈ 10⁻⁴ s/op
+     p(99.9999) =     ≈ 10⁻⁴ s/op
+    p(100.0000) =     ≈ 10⁻⁴ s/op
+
+
+# JMH 1.12 (released 18 days ago)
+# VM version: JDK 1.8.0_77, VM 25.77-b03
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/bin/java
+# VM options: -Xmx1024m -Xms1024m -Djmh.ignoreLock=true
+# Warmup: 25 iterations, single-shot each
+# Measurement: 10 iterations, single-shot each, 5 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: test.jmh.MindMaxBenchmark.maxMind2
+
+# Run progress: 99.98% complete, ETA 00:00:00
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.406 s/op
+# Warmup Iteration   2: 0.009 s/op
+# Warmup Iteration   3: 0.012 s/op
+# Warmup Iteration   4: 0.014 s/op
+# Warmup Iteration   5: 0.011 s/op
+# Warmup Iteration   6: 0.007 s/op
+# Warmup Iteration   7: 0.007 s/op
+# Warmup Iteration   8: 0.010 s/op
+# Warmup Iteration   9: 0.009 s/op
+# Warmup Iteration  10: 0.006 s/op
+# Warmup Iteration  11: ≈ 10⁻⁴ s/op
+# Warmup Iteration  12: 0.008 s/op
+# Warmup Iteration  13: 0.008 s/op
+# Warmup Iteration  14: 0.008 s/op
+# Warmup Iteration  15: 0.008 s/op
+# Warmup Iteration  16: 0.008 s/op
+# Warmup Iteration  17: 0.019 s/op
+# Warmup Iteration  18: 0.007 s/op
+# Warmup Iteration  19: 0.012 s/op
+# Warmup Iteration  20: 0.013 s/op
+# Warmup Iteration  21: 0.005 s/op
+# Warmup Iteration  22: 0.006 s/op
+# Warmup Iteration  23: 0.006 s/op
+# Warmup Iteration  24: 0.006 s/op
+# Warmup Iteration  25: 0.005 s/op
+Iteration   1: 0.029 s/op
+Iteration   2: 0.019 s/op
+Iteration   3: 0.028 s/op
+Iteration   4: 0.050 s/op
+Iteration   5: 0.032 s/op
+Iteration   6: 0.016 s/op
+Iteration   7: 0.018 s/op
+Iteration   8: 0.029 s/op
+Iteration   9: 0.057 s/op
+Iteration  10: 0.016 s/op
+
+# Run progress: 99.98% complete, ETA 00:00:00
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.473 s/op
+# Warmup Iteration   2: 0.022 s/op
+# Warmup Iteration   3: 0.022 s/op
+# Warmup Iteration   4: 0.015 s/op
+# Warmup Iteration   5: 0.011 s/op
+# Warmup Iteration   6: 0.017 s/op
+# Warmup Iteration   7: 0.013 s/op
+# Warmup Iteration   8: 0.024 s/op
+# Warmup Iteration   9: 0.009 s/op
+# Warmup Iteration  10: 0.018 s/op
+# Warmup Iteration  11: 0.021 s/op
+# Warmup Iteration  12: 0.012 s/op
+# Warmup Iteration  13: 0.036 s/op
+# Warmup Iteration  14: 0.013 s/op
+# Warmup Iteration  15: 0.013 s/op
+# Warmup Iteration  16: ≈ 10⁻⁴ s/op
+# Warmup Iteration  17: 0.020 s/op
+# Warmup Iteration  18: 0.015 s/op
+# Warmup Iteration  19: 0.012 s/op
+# Warmup Iteration  20: 0.008 s/op
+# Warmup Iteration  21: 0.012 s/op
+# Warmup Iteration  22: 0.005 s/op
+# Warmup Iteration  23: 0.005 s/op
+# Warmup Iteration  24: 0.005 s/op
+# Warmup Iteration  25: 0.006 s/op
+Iteration   1: 0.035 s/op
+Iteration   2: 0.028 s/op
+Iteration   3: 0.026 s/op
+Iteration   4: 0.030 s/op
+Iteration   5: 0.029 s/op
+Iteration   6: 0.030 s/op
+Iteration   7: 0.028 s/op
+Iteration   8: 0.023 s/op
+Iteration   9: 0.023 s/op
+Iteration  10: 0.027 s/op
+
+# Run progress: 99.98% complete, ETA 00:00:00
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.358 s/op
+# Warmup Iteration   2: 0.022 s/op
+# Warmup Iteration   3: 0.016 s/op
+# Warmup Iteration   4: 0.014 s/op
+# Warmup Iteration   5: 0.013 s/op
+# Warmup Iteration   6: 0.010 s/op
+# Warmup Iteration   7: 0.011 s/op
+# Warmup Iteration   8: 0.020 s/op
+# Warmup Iteration   9: 0.010 s/op
+# Warmup Iteration  10: 0.011 s/op
+# Warmup Iteration  11: 0.020 s/op
+# Warmup Iteration  12: 0.010 s/op
+# Warmup Iteration  13: 0.007 s/op
+# Warmup Iteration  14: 0.016 s/op
+# Warmup Iteration  15: 0.005 s/op
+# Warmup Iteration  16: 0.014 s/op
+# Warmup Iteration  17: 0.005 s/op
+# Warmup Iteration  18: 0.007 s/op
+# Warmup Iteration  19: 0.005 s/op
+# Warmup Iteration  20: 0.006 s/op
+# Warmup Iteration  21: 0.004 s/op
+# Warmup Iteration  22: 0.006 s/op
+# Warmup Iteration  23: 0.007 s/op
+# Warmup Iteration  24: 0.005 s/op
+# Warmup Iteration  25: 0.005 s/op
+Iteration   1: 0.028 s/op
+Iteration   2: 0.042 s/op
+Iteration   3: 0.029 s/op
+Iteration   4: 0.022 s/op
+Iteration   5: 0.019 s/op
+Iteration   6: 0.048 s/op
+Iteration   7: 0.029 s/op
+Iteration   8: 0.028 s/op
+Iteration   9: 0.020 s/op
+Iteration  10: 0.023 s/op
+
+# Run progress: 99.98% complete, ETA 00:00:00
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.401 s/op
+# Warmup Iteration   2: 0.015 s/op
+# Warmup Iteration   3: 0.020 s/op
+# Warmup Iteration   4: ≈ 10⁻⁴ s/op
+# Warmup Iteration   5: 0.013 s/op
+# Warmup Iteration   6: ≈ 10⁻⁴ s/op
+# Warmup Iteration   7: 0.015 s/op
+# Warmup Iteration   8: 0.015 s/op
+# Warmup Iteration   9: 0.018 s/op
+# Warmup Iteration  10: 0.019 s/op
+# Warmup Iteration  11: 0.009 s/op
+# Warmup Iteration  12: 0.011 s/op
+# Warmup Iteration  13: 0.011 s/op
+# Warmup Iteration  14: 0.012 s/op
+# Warmup Iteration  15: 0.018 s/op
+# Warmup Iteration  16: 0.029 s/op
+# Warmup Iteration  17: 0.016 s/op
+# Warmup Iteration  18: 0.021 s/op
+# Warmup Iteration  19: 0.017 s/op
+# Warmup Iteration  20: 0.008 s/op
+# Warmup Iteration  21: 0.009 s/op
+# Warmup Iteration  22: 0.008 s/op
+# Warmup Iteration  23: ≈ 10⁻⁴ s/op
+# Warmup Iteration  24: ≈ 10⁻⁴ s/op
+# Warmup Iteration  25: 0.010 s/op
+Iteration   1: 0.034 s/op
+Iteration   2: 0.038 s/op
+Iteration   3: 0.036 s/op
+Iteration   4: 0.054 s/op
+Iteration   5: 0.029 s/op
+Iteration   6: 0.030 s/op
+Iteration   7: 0.037 s/op
+Iteration   8: 0.020 s/op
+Iteration   9: 0.030 s/op
+Iteration  10: 0.025 s/op
+
+# Run progress: 99.99% complete, ETA 00:00:00
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.288 s/op
+# Warmup Iteration   2: 0.133 s/op
+# Warmup Iteration   3: 0.015 s/op
+# Warmup Iteration   4: 0.015 s/op
+# Warmup Iteration   5: 0.012 s/op
+# Warmup Iteration   6: 0.009 s/op
+# Warmup Iteration   7: 0.011 s/op
+# Warmup Iteration   8: 0.008 s/op
+# Warmup Iteration   9: 0.012 s/op
+# Warmup Iteration  10: 0.008 s/op
+# Warmup Iteration  11: 0.006 s/op
+# Warmup Iteration  12: 0.006 s/op
+# Warmup Iteration  13: 0.008 s/op
+# Warmup Iteration  14: 0.007 s/op
+# Warmup Iteration  15: 0.007 s/op
+# Warmup Iteration  16: 0.007 s/op
+# Warmup Iteration  17: 0.030 s/op
+# Warmup Iteration  18: 0.013 s/op
+# Warmup Iteration  19: 0.021 s/op
+# Warmup Iteration  20: 0.009 s/op
+# Warmup Iteration  21: 0.006 s/op
+# Warmup Iteration  22: 0.005 s/op
+# Warmup Iteration  23: 0.005 s/op
+# Warmup Iteration  24: 0.003 s/op
+# Warmup Iteration  25: 0.004 s/op
+Iteration   1: 0.024 s/op
+Iteration   2: 0.021 s/op
+Iteration   3: 0.039 s/op
+Iteration   4: 0.033 s/op
+Iteration   5: 0.023 s/op
+Iteration   6: 0.018 s/op
+Iteration   7: 0.016 s/op
+Iteration   8: 0.019 s/op
+Iteration   9: 0.016 s/op
+Iteration  10: 0.013 s/op
+
+
+Result "maxMind2":
+  N = 50
+  mean =      0.028 ±(99.9%) 0.005 s/op
+
+  Histogram, s/op:
+    [0.010, 0.013) = 0
+    [0.013, 0.015) = 1
+    [0.015, 0.018) = 4
+    [0.018, 0.020) = 5
+    [0.020, 0.023) = 4
+    [0.023, 0.025) = 5
+    [0.025, 0.028) = 3
+    [0.028, 0.030) = 14
+    [0.030, 0.033) = 2
+    [0.033, 0.035) = 3
+    [0.035, 0.038) = 2
+    [0.038, 0.040) = 2
+    [0.040, 0.043) = 1
+    [0.043, 0.045) = 0
+    [0.045, 0.048) = 0
+    [0.048, 0.050) = 1
+    [0.050, 0.053) = 1
+    [0.053, 0.055) = 1
+    [0.055, 0.058) = 1
+
+  Percentiles, s/op:
+      p(0.0000) =      0.013 s/op
+     p(50.0000) =      0.028 s/op
+     p(90.0000) =      0.041 s/op
+     p(95.0000) =      0.052 s/op
+     p(99.0000) =      0.057 s/op
+     p(99.9000) =      0.057 s/op
+     p(99.9900) =      0.057 s/op
+     p(99.9990) =      0.057 s/op
+     p(99.9999) =      0.057 s/op
+    p(100.0000) =      0.057 s/op
+
+
+# JMH 1.12 (released 18 days ago)
+# VM version: JDK 1.8.0_77, VM 25.77-b03
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/bin/java
+# VM options: -Xmx1024m -Xms1024m -Djmh.ignoreLock=true
+# Warmup: 25 iterations, single-shot each
+# Measurement: 10 iterations, single-shot each, 5 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: test.jmh.MindMaxBenchmark.maxMind2v2
+
+# Run progress: 99.99% complete, ETA 00:00:00
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.987 s/op
+# Warmup Iteration   2: 0.016 s/op
+# Warmup Iteration   3: 0.022 s/op
+# Warmup Iteration   4: 0.016 s/op
+# Warmup Iteration   5: 0.021 s/op
+# Warmup Iteration   6: 0.013 s/op
+# Warmup Iteration   7: 0.012 s/op
+# Warmup Iteration   8: 0.017 s/op
+# Warmup Iteration   9: 0.009 s/op
+# Warmup Iteration  10: ≈ 10⁻⁴ s/op
+# Warmup Iteration  11: 0.008 s/op
+# Warmup Iteration  12: 0.014 s/op
+# Warmup Iteration  13: 0.011 s/op
+# Warmup Iteration  14: 0.008 s/op
+# Warmup Iteration  15: 0.007 s/op
+# Warmup Iteration  16: 0.008 s/op
+# Warmup Iteration  17: 0.019 s/op
+# Warmup Iteration  18: 0.007 s/op
+# Warmup Iteration  19: 0.006 s/op
+# Warmup Iteration  20: 0.018 s/op
+# Warmup Iteration  21: 0.008 s/op
+# Warmup Iteration  22: 0.007 s/op
+# Warmup Iteration  23: 0.008 s/op
+# Warmup Iteration  24: 0.006 s/op
+# Warmup Iteration  25: 0.006 s/op
+Iteration   1: 0.038 s/op
+Iteration   2: 0.035 s/op
+Iteration   3: 0.035 s/op
+Iteration   4: 0.028 s/op
+Iteration   5: 0.029 s/op
+Iteration   6: 0.026 s/op
+Iteration   7: 0.027 s/op
+Iteration   8: 0.019 s/op
+Iteration   9: 0.023 s/op
+Iteration  10: 0.021 s/op
+
+# Run progress: 99.99% complete, ETA 00:00:00
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.828 s/op
+# Warmup Iteration   2: 0.017 s/op
+# Warmup Iteration   3: 0.015 s/op
+# Warmup Iteration   4: 0.013 s/op
+# Warmup Iteration   5: 0.010 s/op
+# Warmup Iteration   6: 0.010 s/op
+# Warmup Iteration   7: 0.007 s/op
+# Warmup Iteration   8: 0.011 s/op
+# Warmup Iteration   9: 0.008 s/op
+# Warmup Iteration  10: 0.006 s/op
+# Warmup Iteration  11: 0.006 s/op
+# Warmup Iteration  12: 0.007 s/op
+# Warmup Iteration  13: 0.008 s/op
+# Warmup Iteration  14: 0.008 s/op
+# Warmup Iteration  15: 0.007 s/op
+# Warmup Iteration  16: 0.016 s/op
+# Warmup Iteration  17: 0.008 s/op
+# Warmup Iteration  18: 0.007 s/op
+# Warmup Iteration  19: 0.008 s/op
+# Warmup Iteration  20: 0.010 s/op
+# Warmup Iteration  21: 0.007 s/op
+# Warmup Iteration  22: 0.005 s/op
+# Warmup Iteration  23: 0.007 s/op
+# Warmup Iteration  24: 0.004 s/op
+# Warmup Iteration  25: 0.006 s/op
+Iteration   1: 0.024 s/op
+Iteration   2: 0.026 s/op
+Iteration   3: 0.029 s/op
+Iteration   4: 0.034 s/op
+Iteration   5: 0.018 s/op
+Iteration   6: 0.029 s/op
+Iteration   7: 0.018 s/op
+Iteration   8: 0.019 s/op
+Iteration   9: 0.020 s/op
+Iteration  10: 0.016 s/op
+
+# Run progress: 99.99% complete, ETA 00:00:00
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.671 s/op
+# Warmup Iteration   2: 0.016 s/op
+# Warmup Iteration   3: ≈ 10⁻⁴ s/op
+# Warmup Iteration   4: 0.014 s/op
+# Warmup Iteration   5: 0.013 s/op
+# Warmup Iteration   6: 0.012 s/op
+# Warmup Iteration   7: 0.012 s/op
+# Warmup Iteration   8: 0.010 s/op
+# Warmup Iteration   9: 0.016 s/op
+# Warmup Iteration  10: 0.011 s/op
+# Warmup Iteration  11: 0.008 s/op
+# Warmup Iteration  12: 0.013 s/op
+# Warmup Iteration  13: 0.044 s/op
+# Warmup Iteration  14: 0.011 s/op
+# Warmup Iteration  15: 0.009 s/op
+# Warmup Iteration  16: 0.007 s/op
+# Warmup Iteration  17: 0.022 s/op
+# Warmup Iteration  18: 0.007 s/op
+# Warmup Iteration  19: 0.008 s/op
+# Warmup Iteration  20: 0.007 s/op
+# Warmup Iteration  21: 0.007 s/op
+# Warmup Iteration  22: 0.006 s/op
+# Warmup Iteration  23: 0.007 s/op
+# Warmup Iteration  24: 0.006 s/op
+# Warmup Iteration  25: 0.007 s/op
+Iteration   1: 0.026 s/op
+Iteration   2: 0.059 s/op
+Iteration   3: 0.036 s/op
+Iteration   4: 0.046 s/op
+Iteration   5: 0.020 s/op
+Iteration   6: 0.045 s/op
+Iteration   7: 0.024 s/op
+Iteration   8: 0.020 s/op
+Iteration   9: 0.024 s/op
+Iteration  10: 0.018 s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.775 s/op
+# Warmup Iteration   2: 0.024 s/op
+# Warmup Iteration   3: 0.025 s/op
+# Warmup Iteration   4: 0.019 s/op
+# Warmup Iteration   5: 0.015 s/op
+# Warmup Iteration   6: 0.014 s/op
+# Warmup Iteration   7: 0.016 s/op
+# Warmup Iteration   8: 0.014 s/op
+# Warmup Iteration   9: 0.016 s/op
+# Warmup Iteration  10: 0.011 s/op
+# Warmup Iteration  11: 0.014 s/op
+# Warmup Iteration  12: 0.014 s/op
+# Warmup Iteration  13: 0.011 s/op
+# Warmup Iteration  14: 0.014 s/op
+# Warmup Iteration  15: 0.008 s/op
+# Warmup Iteration  16: 0.029 s/op
+# Warmup Iteration  17: 0.007 s/op
+# Warmup Iteration  18: 0.006 s/op
+# Warmup Iteration  19: 0.009 s/op
+# Warmup Iteration  20: 0.007 s/op
+# Warmup Iteration  21: 0.006 s/op
+# Warmup Iteration  22: 0.008 s/op
+# Warmup Iteration  23: 0.040 s/op
+# Warmup Iteration  24: 0.007 s/op
+# Warmup Iteration  25: 0.012 s/op
+Iteration   1: 0.028 s/op
+Iteration   2: 0.030 s/op
+Iteration   3: 0.023 s/op
+Iteration   4: 0.023 s/op
+Iteration   5: 0.030 s/op
+Iteration   6: 0.021 s/op
+Iteration   7: 0.021 s/op
+Iteration   8: 0.024 s/op
+Iteration   9: 0.022 s/op
+Iteration  10: 0.017 s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.889 s/op
+# Warmup Iteration   2: 0.025 s/op
+# Warmup Iteration   3: 0.016 s/op
+# Warmup Iteration   4: 0.009 s/op
+# Warmup Iteration   5: 0.012 s/op
+# Warmup Iteration   6: 0.016 s/op
+# Warmup Iteration   7: 0.006 s/op
+# Warmup Iteration   8: 0.011 s/op
+# Warmup Iteration   9: 0.019 s/op
+# Warmup Iteration  10: 0.013 s/op
+# Warmup Iteration  11: 0.007 s/op
+# Warmup Iteration  12: ≈ 10⁻⁴ s/op
+# Warmup Iteration  13: 0.009 s/op
+# Warmup Iteration  14: 0.009 s/op
+# Warmup Iteration  15: 0.010 s/op
+# Warmup Iteration  16: 0.008 s/op
+# Warmup Iteration  17: 0.033 s/op
+# Warmup Iteration  18: 0.008 s/op
+# Warmup Iteration  19: 0.018 s/op
+# Warmup Iteration  20: 0.007 s/op
+# Warmup Iteration  21: 0.010 s/op
+# Warmup Iteration  22: 0.007 s/op
+# Warmup Iteration  23: 0.007 s/op
+# Warmup Iteration  24: 0.006 s/op
+# Warmup Iteration  25: ≈ 10⁻⁴ s/op
+Iteration   1: 0.024 s/op
+Iteration   2: 0.027 s/op
+Iteration   3: 0.029 s/op
+Iteration   4: 0.036 s/op
+Iteration   5: 0.020 s/op
+Iteration   6: 0.022 s/op
+Iteration   7: 0.011 s/op
+Iteration   8: 0.021 s/op
+Iteration   9: 0.023 s/op
+Iteration  10: 0.022 s/op
+
+
+Result "maxMind2v2":
+  N = 50
+  mean =      0.026 ±(99.9%) 0.004 s/op
+
+  Histogram, s/op:
+    [0.010, 0.013) = 1
+    [0.013, 0.015) = 0
+    [0.015, 0.018) = 2
+    [0.018, 0.020) = 6
+    [0.020, 0.023) = 10
+    [0.023, 0.025) = 9
+    [0.025, 0.028) = 5
+    [0.028, 0.030) = 6
+    [0.030, 0.033) = 2
+    [0.033, 0.035) = 2
+    [0.035, 0.038) = 3
+    [0.038, 0.040) = 1
+    [0.040, 0.043) = 0
+    [0.043, 0.045) = 1
+    [0.045, 0.048) = 1
+    [0.048, 0.050) = 0
+    [0.050, 0.053) = 0
+    [0.053, 0.055) = 0
+    [0.055, 0.058) = 0
+
+  Percentiles, s/op:
+      p(0.0000) =      0.011 s/op
+     p(50.0000) =      0.024 s/op
+     p(90.0000) =      0.036 s/op
+     p(95.0000) =      0.045 s/op
+     p(99.0000) =      0.059 s/op
+     p(99.9000) =      0.059 s/op
+     p(99.9900) =      0.059 s/op
+     p(99.9990) =      0.059 s/op
+     p(99.9999) =      0.059 s/op
+    p(100.0000) =      0.059 s/op
+
+
+# Run complete. Total time: 00:27:10
+
+Benchmark                      Mode     Cnt       Score      Error  Units
+MindMaxBenchmark.maxMind1     thrpt      50  176225.276 ± 1603.768  ops/s
+MindMaxBenchmark.maxMind2     thrpt      50     825.766 ±   12.428  ops/s
+MindMaxBenchmark.maxMind2v2   thrpt      50     767.863 ±   35.938  ops/s
+MindMaxBenchmark.maxMind1      avgt      50      ≈ 10⁻⁵              s/op
+MindMaxBenchmark.maxMind2      avgt      50       0.001 ±    0.001   s/op
+MindMaxBenchmark.maxMind2v2    avgt      50       0.001 ±    0.001   s/op
+MindMaxBenchmark.maxMind1    sample  131466      ≈ 10⁻⁵              s/op
+MindMaxBenchmark.maxMind2    sample   38187       0.001 ±    0.001   s/op
+MindMaxBenchmark.maxMind2v2  sample   34064       0.001 ±    0.001   s/op
+MindMaxBenchmark.maxMind1        ss      50      ≈ 10⁻⁴              s/op
+MindMaxBenchmark.maxMind2        ss      50       0.028 ±    0.005   s/op
+MindMaxBenchmark.maxMind2v2      ss      50       0.026 ±    0.004   s/op
+
+MindMaxBenchmark.maxMind1     thrpt        152087.099           ops/s
+MindMaxBenchmark.maxMind2     thrpt            98.524           ops/s
+MindMaxBenchmark.maxMind2v2   thrpt            84.544           ops/s
+MindMaxBenchmark.maxMind1      avgt            ≈ 10⁻⁵            s/op
+MindMaxBenchmark.maxMind2      avgt             0.012            s/op
+MindMaxBenchmark.maxMind2v2    avgt             0.012            s/op
+MindMaxBenchmark.maxMind1    sample  2953      ≈ 10⁻⁴            s/op
+MindMaxBenchmark.maxMind2    sample    88       0.011 ±  0.002   s/op
+MindMaxBenchmark.maxMind2v2  sample    58       0.017 ±  0.004   s/op
+MindMaxBenchmark.maxMind1        ss             0.001            s/op
+MindMaxBenchmark.maxMind2        ss             0.084            s/op
+MindMaxBenchmark.maxMind2v2      ss             0.051            s/op
