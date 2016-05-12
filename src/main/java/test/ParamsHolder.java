@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Random;
 
 public class ParamsHolder {
-    final static int IP_COUNT = 10_000_000;
+    final static int IP_COUNT = 10_000;
     private static ParamsHolder ourInstance = new ParamsHolder();
 
     public static ParamsHolder getInstance() {
@@ -36,9 +36,11 @@ public class ParamsHolder {
             try {
                 ip = InetAddress.getByAddress(address);
             } catch (UnknownHostException e) {
+                System.out.println("Unknown IP Address");
             }
             inetAddressList.add(ip);
         }
+        inetAddresses = inetAddressList.toArray(new InetAddress[IP_COUNT]);
     }
 
     public static ParamsHolder getOurInstance() {
